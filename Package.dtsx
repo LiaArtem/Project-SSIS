@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="39"
-  DTS:VersionGUID="{638C2C12-3D29-4929-8385-35FDC19D8A09}">
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{8522BC9E-E815-49B0-8768-971AFFDFE9CE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -61,12 +61,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={MySQL ODBC 8.0 ANSI Driver};port=3306;found_rows=1;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="jiHT35zyozk="
-            IV="2NkxZiA0Xu175JxdpupYJA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="WiuEay5rbrQ="
+            IV="v/Nl+wRIBAcjvdDhK7tuHw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>2NkxZiA0Xu175JxdpupYJLPS7Txr/DERf4FswGKBjnw0NQ5WX8JL8YNilRS/hX73phYm9DDw94+MQ/hy6mH6jdp+JcEbAmIMoZQfzKedsW59Qq27esN/Mc3Ybdf6yGjP3Y1UaAE4doZWPpM28hbu0mpq4HQEQYdLP9kiwcG/wCM=</CipherValue>
+              <CipherValue>v/Nl+wRIBAcjvdDhK7tuH13SWLW5EDpQhJu6wNOmteXG67zYDeRjW/n+0SmJ43GyqIq5ulx2w4dZXwMktvOMbc5n6PhraZLclCP8E0jTpSs1Jr7B6jh4vvfKZLWxys7eJukkF7XZwwPMdnqOYVntu1rRE1c2MM+HCYRn0GguM4s=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -84,12 +84,12 @@
           DTS:ConnectionString="Data Source=XE;User ID=TEST_USER;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="hoFar2vZDOU="
-            IV="300m7Z8gzt4MWsdfqDzCPQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="uDmZJ8G/Bvo="
+            IV="CNBdJtY21nP6sAcBom3/rA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>300m7Z8gzt4MWsdfqDzCPf9XI/vxgDUoPxcl24/LgvoZUnuAl+5KndXRS0KzcMAEy3Qn3YsqiNg4Ut6sWVPz8RHiExj+Oj4HAB4SSaPpjklC8C8CtxAeH3m1kQNIA+FmFl3MGUtSg5f8o7M1C5tvY+5x28XHbaX4NC/BwWpIttcbnzx+QDu/pyM9ESyNjq61</CipherValue>
+              <CipherValue>CNBdJtY21nP6sAcBom3/rO4BXRcjPuDltc4/ZCUzfTDmMMc1FVCbG+AgkIxGevYbH/b38FNSDqjRnHvgRI2VdQdYBbaopnAcUzuMBzisu+4/M8B0EofHsRVJfxS9Y9tGZ9KunLd6y4Dpv03bCeoDrl9YmwSZioxw2VGI46v+ApRusfvVp++cOaKbopM9Sr/h</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -105,12 +105,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={PostgreSQL ANSI};port=5432;database=test_database;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="v0C4mrs2BeM="
-            IV="p4UadkDx641klwI8H9ArJw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="fWxYB2c3kMI="
+            IV="KxDlWZxL51RYS2RHdAcXAQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>p4UadkDx641klwI8H9ArJy88pZthdzmf8Pzai7guLWMriBwso3jUq2mmj+Z+YakKFN8effviEfjIbg7oA2vvCpqlKMPbwnvS9XjGnGpZWCSRVD0Xrdhjf/YN2H84BmrmohXGwDfN6/neXgpBdSalGz/osGm2grOIFZNLwtWlgZs=</CipherValue>
+              <CipherValue>KxDlWZxL51RYS2RHdAcXAVtB32odSTHu+sybTo6pRASqlm3i+iYqcB0+S88in2YYQSoBWNqRn61nkVX1gcbD03Z8VrnZLVGGZ7g3PEi+mgniS40999fs7/MzsgnelH4xYf616z7CHbz3//PI1htkE4rEfkXBLlpl22EJmS1UQ/k=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -120,13 +120,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Задача &quot;Выполнение инструкции T-SQL&quot;"
+      DTS:refId="Package\Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
       DTS:CreationName="Microsoft.DbMaintenanceTSQLExecuteTask"
       DTS:Description="Задача &quot;Выполнение инструкции T-SQL&quot;"
       DTS:DTSID="{656EEA67-0408-4BEB-8F7E-C4D4B0BE90FF}"
       DTS:ExecutableType="Microsoft.DbMaintenanceTSQLExecuteTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Задача &quot;Выполнение инструкции T-SQL&quot;"
+      DTS:ObjectName="Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
       DTS:TaskContact="Execute T-SQL Statement Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
@@ -134,6 +134,28 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{7AF2063C-4F25-4BAF-8F50-242CD15A88DA}"
           SQLTask:SqlStatementSource="USE [DatabaseTestDB];&#xA;&#xA;DELETE FROM [dbo].[KURS_SSIS]"
+          SQLTask:ServerVersion="9"
+          SQLTask:ExtendedLogging="True"
+          SQLTask:LocalConnectionForLogging=""
+          SQLTask:TaskName=""
+          SQLTask:IgnoreDatabasesInNotOnlineState="False" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка"
+      DTS:CreationName="Microsoft.DbMaintenanceTSQLExecuteTask"
+      DTS:Description="Задача &quot;Выполнение инструкции T-SQL&quot;"
+      DTS:DTSID="{5A953018-0187-4DA3-93EE-638029CE1B52}"
+      DTS:ExecutableType="Microsoft.DbMaintenanceTSQLExecuteTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка"
+      DTS:TaskContact="Execute T-SQL Statement Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{7AF2063C-4F25-4BAF-8F50-242CD15A88DA}"
+          SQLTask:SqlStatementSource="USE [DatabaseTestDB];&#xA;&#xA;EXECUTE [dbo].[add_kurs_nbu_ssis]"
           SQLTask:ServerVersion="9"
           SQLTask:ExtendedLogging="True"
           SQLTask:LocalConnectionForLogging=""
@@ -541,6 +563,24 @@ from test_schemas.curs c</property>
                       dataType="dbTimeStamp2"
                       name="SYS_DATE"
                       scale="7" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - MySQL\Назначение &quot;SQL Server&quot; 2.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[EVENT_CODE]"
+                      dataType="wstr"
+                      length="1"
+                      name="EVENT_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - MySQL\Назначение &quot;SQL Server&quot; 2.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_CODE]"
+                      dataType="i4"
+                      name="ERROR_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - MySQL\Назначение &quot;SQL Server&quot; 2.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_MESSAGE]"
+                      dataType="nText"
+                      name="ERROR_MESSAGE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - MySQL\Назначение &quot;SQL Server&quot; 2.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[HASH_COLIMN]"
+                      dataType="bytes"
+                      length="64"
+                      name="HASH_COLIMN" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1138,6 +1178,24 @@ from test_user.kurs k</property>
                       dataType="dbTimeStamp2"
                       name="SYS_DATE"
                       scale="7" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - Oracle\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[EVENT_CODE]"
+                      dataType="wstr"
+                      length="1"
+                      name="EVENT_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - Oracle\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_CODE]"
+                      dataType="i4"
+                      name="ERROR_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - Oracle\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_MESSAGE]"
+                      dataType="nText"
+                      name="ERROR_MESSAGE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - Oracle\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[HASH_COLIMN]"
+                      dataType="bytes"
+                      length="64"
+                      name="HASH_COLIMN" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1672,6 +1730,24 @@ from test_schemas.curs c</property>
                       dataType="dbTimeStamp2"
                       name="SYS_DATE"
                       scale="7" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - PostgreSQL\Назначение &quot;SQL Server&quot; 1.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[EVENT_CODE]"
+                      dataType="wstr"
+                      length="1"
+                      name="EVENT_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - PostgreSQL\Назначение &quot;SQL Server&quot; 1.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_CODE]"
+                      dataType="i4"
+                      name="ERROR_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - PostgreSQL\Назначение &quot;SQL Server&quot; 1.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_MESSAGE]"
+                      dataType="nText"
+                      name="ERROR_MESSAGE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - PostgreSQL\Назначение &quot;SQL Server&quot; 1.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[HASH_COLIMN]"
+                      dataType="bytes"
+                      length="64"
+                      name="HASH_COLIMN" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2336,6 +2412,24 @@ from test_schemas.curs c</property>
                       dataType="dbTimeStamp2"
                       name="SYS_DATE"
                       scale="7" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[EVENT_CODE]"
+                      dataType="wstr"
+                      length="1"
+                      name="EVENT_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_CODE]"
+                      dataType="i4"
+                      name="ERROR_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_MESSAGE]"
+                      dataType="nText"
+                      name="ERROR_MESSAGE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[HASH_COLIMN]"
+                      dataType="bytes"
+                      length="64"
+                      name="HASH_COLIMN" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2626,10 +2720,18 @@ from test_schemas.curs c</property>
       DTS:refId="Package.PrecedenceConstraints[Ограничение 3]"
       DTS:CreationName=""
       DTS:DTSID="{F34CC96D-5423-45F8-86B7-833764370BEB}"
-      DTS:From="Package\Задача &quot;Выполнение инструкции T-SQL&quot;"
+      DTS:From="Package\Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Ограничение 3"
       DTS:To="Package\Задача потока данных KURS_SSIS - Oracle" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Ограничение 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{206FFEB4-D30C-4DD0-AF2E-A49D951D88DF}"
+      DTS:From="Package\Задача потока данных KURS_SSIS - XML"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Ограничение 4"
+      DTS:To="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--В данном разделе CDATA содержатся сведения о макете пакета. В данном разделе содержатся сведения о координатах (x,y), ширине и высоте.-->
@@ -2644,8 +2746,8 @@ from test_schemas.curs c</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="278,42"
-          Id="Package\Задача &quot;Выполнение инструкции T-SQL&quot;"
+          Size="322,42"
+          Id="Package\Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
           TopLeft="57,30" />
         <NodeLayout
           Size="289,42"
@@ -2731,18 +2833,68 @@ from test_schemas.curs c</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 3]"
-          TopLeft="196.75,72">
+          TopLeft="218,72">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33"
+              EndConnector="-20.5,33"
               Start="0,0"
-              End="0,25.5">
+              End="-20.5,25.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.5" />
+                    End="0,12.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.5"
+                    Point2="0,16.5"
+                    Point3="-4,16.5" />
+                  <mssgle:LineSegment
+                    End="-16.5,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.5,16.5"
+                    Point2="-20.5,16.5"
+                    Point3="-20.5,20.5" />
+                  <mssgle:LineSegment
+                    End="-20.5,25.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="324,42"
+          Id="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка"
+          TopLeft="59,401" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Ограничение 4]"
+          TopLeft="199.5,362">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.5,39"
+              Start="0,0"
+              End="21.5,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.5"
+                    Point2="0,19.5"
+                    Point3="4,19.5" />
+                  <mssgle:LineSegment
+                    End="17.5,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.5,19.5"
+                    Point2="21.5,19.5"
+                    Point3="21.5,23.5" />
+                  <mssgle:LineSegment
+                    End="21.5,31.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2758,7 +2910,7 @@ from test_schemas.curs c</property>
     design-time-name="Package\Задача потока данных KURS_SSIS - MySQL">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="209,42"
           Id="Package\Задача потока данных KURS_SSIS - MySQL\Преобразование данных 2"
@@ -2790,9 +2942,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2814,19 +2964,25 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - MySQL\Назначение &quot;SQL Server&quot; 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Задача потока данных KURS_SSIS - Oracle">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="200,42"
           Id="Package\Задача потока данных KURS_SSIS - Oracle\Преобразование данных"
@@ -2858,9 +3014,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2882,9 +3036,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2915,7 +3067,7 @@ from test_schemas.curs c</property>
     design-time-name="Package\Задача потока данных KURS_SSIS - PostgreSQL">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="209,42"
           Id="Package\Задача потока данных KURS_SSIS - PostgreSQL\Преобразование данных 1"
@@ -2951,9 +3103,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2975,9 +3125,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2999,9 +3147,7 @@ from test_schemas.curs c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
