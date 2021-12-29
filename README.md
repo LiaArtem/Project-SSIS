@@ -1,4 +1,4 @@
-- Project SSIS VS2019 (OracleXE 21c, PostgreSQL 14, MySQL, XML -> MS SQL 2019).
+- Project SSIS VS2019 (OracleXE 21c, PostgreSQL 14, MySQL, SQLite, XML file, CSV file, JSON file, JSON web -> MS SQL 2019).
 
 Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
 Запускать проект под Администратором на ПК.
@@ -34,4 +34,9 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
   - поставщик OLE DB: Oracle provider for OLE DB
   - имя базы = XE, логин = TEST_USER и пароль = TEST_USER.
 
+-> SQLite ODBC Driver
+------------------------------------------------------
+- скачиваем и ставим http://www.ch-werner.de/sqliteodbc/ текущую версию sqliteodbc.exe.
+- открыть «Администрирование» -> «Источники данных» (ODBC).
+  - на вкладке System DSN -> SQLite3 Datasource (32bit) прописать путь к базе данных c:\DB_SQLite\CurrencyChartFXMaven.db
 
