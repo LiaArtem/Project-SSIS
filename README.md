@@ -1,4 +1,4 @@
-- Project SSIS VS2019 (OracleXE 21c, PostgreSQL 14, MySQL, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2019).
+- Project SSIS VS2019 (MS SQL 2019, OracleXE 21c, PostgreSQL 14, MySQL, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2019).
 
 Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
 Запускать проект под Администратором на ПК.
