@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="101"
-  DTS:VersionGUID="{BC315291-04CD-442D-BFCB-7FA9A65D65F7}">
+  DTS:VersionBuild="114"
+  DTS:VersionGUID="{5671D535-6F28-450E-BDE6-E10E08158485}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -97,12 +97,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={MySQL ODBC 8.0 ANSI Driver};port=3306;found_rows=1;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="qexdXOp8bPs="
-            IV="Wnjhoocv6trFApjPnVLiTQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="m/2Cg+maQD0="
+            IV="4vzLQ7Ax44LocdcTjBGUMA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Wnjhoocv6trFApjPnVLiTWUoXsi4zu6I+FaP5uYsz2bA6wk59GHnVumFWssIPVcD3HJV6Hmw+lcrup/CjAespY0VDQzpA+pzwqjwdvos1EWYKX9F+G3NyYrzfI7F3jeqsZ+OLygrDOZMHmh/3Y+3/zRVb+qfe2xO2O74tQRVAV4=</CipherValue>
+              <CipherValue>4vzLQ7Ax44LocdcTjBGUMGvkY+2WWGIfe6tmphMpUsvrb0P2dCyTZZKEwMSGgZDKxcpqlLlY0JVIsIO4CgzscrKQQNeh48hkRqHEvQY8aIE5TeSyf9s1foLAjsm6I5Jq+eaaEjD/9VfuQIj1Kac6TKOJMBMa2fLOTsN8pORkB8M=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -120,12 +120,12 @@
           DTS:ConnectionString="Data Source=XE;User ID=TEST_USER;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="UioUV1aeIyA="
-            IV="HSPlA9KxfsveB2BWElUqzw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="yRMiU4GsC2I="
+            IV="NNUSY3eHOBpmSA+C2dGf/Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>HSPlA9KxfsveB2BWElUqz90SR9KaI3BPLn/bkF1vsUCnJNKZxRFtfzZ4V+Su8MJsvylU5OC6I9RfLN0LZzqynsM9cnVPKqZJogwIcdjQbqDMnxfgKmbUV5wFUoFAscWT2zgm8tuA8eZMaKEc3IlZusCvS3pItYfEVTJDDUrlBuYABbpD7iczKCdum+K7CQAu</CipherValue>
+              <CipherValue>NNUSY3eHOBpmSA+C2dGf/eU2brbGh63gWM9V7+MAxF2wehWRfw/JKxgwPI15fOcNl8L9nTEr6KAULhjtYSl2NG+NIpPpG6TvXotbPfIf5WV6IYw+x7sLTvV/du74Ug/3YVMHDi5EMvKekeUhvXSro+fguzEeCQqSfebmrVNMLWHPjmVleiFl0y4UX1QJw+YC</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -141,12 +141,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={PostgreSQL ANSI};port=5432;database=test_database;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="ee/s1dzwbZI="
-            IV="0REcNhxKVgwilNwEFrCMtQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="8MvxDDEWcTY="
+            IV="NatxJK8mrcdKQPhLux4Ckg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>0REcNhxKVgwilNwEFrCMtZz+QeND547Nfbs7/Uq//ToKakj2K4SkQdN+Lcf2V41fzFSGce3y0gLxbsVFIsS3j/pf9qASgFax5pA/FgGXlJdZ7iHaDB8hZdwgUaax0fBvTN8qRpcMPct5eYpuR0WN627CCco2BpjasbCeAqXJXE4=</CipherValue>
+              <CipherValue>NatxJK8mrcdKQPhLux4CkmL+R6h5GHn5/vbsqqtKuV46TunM4YRLxR023KNLn0RFYj5xzgTwKLSGmGlUwAJ5xE8ODJy16SDJjjtSdU+W4kddSMtMur/lyRdaBPITodv7tevTQmWOd0cN5qV+e78u5d4m7U3PVoz2ApNVoU54VtA=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2430,93 +2430,98 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   <arrayElements
                     arrayElementCount="30">
                     <arrayElement
-                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                      dataType="System.String"><![CDATA[SC_49f8aa9cc3b44d70a2ebd9563ca0622f.csproj]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[UTF8]]></arrayElement>
                     <arrayElement
-                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
-*  Microsoft SQL Server Integration Services component wrapper
-*  This module defines the base class for your component
-*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
-
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-using Microsoft.SqlServer.Dts.Runtime.Wrapper;
-
-public class UserComponent: ScriptComponent
-{
-    public Connections Connections;
-    public Variables Variables;
-    public UserComponent()
-    {
-        Connections = new Connections(this);
-        Variables = new Variables(this);
-    }
-
-    public Выход0Buffer Выход0Buffer;
-
-    public virtual void FinishOutputs()
-    {
-    }
-
-    private void MarkOutputsFinished()
-    {
-
-        if (null != Выход0Buffer)
-        {
-            Выход0Buffer.SetEndOfRowset();
-            Выход0Buffer = null;
-        }
-
-    }
-
-    public override void PrimeOutput(int Outputs, int[] OutputIDs, PipelineBuffer[] Buffers, OutputNameMap OutputMap)
-    {
-       for(int Idx = 0; Idx < Outputs; Idx++)
-       {
-            if(OutputIDs[Idx] == GetOutputID(OutputMap, @"Выход 0"))
-            {
-                Выход0Buffer = new Выход0Buffer(Buffers[Idx], GetColumnIndexes(OutputIDs[Idx]), OutputMap);
-            }
-        }
-
-        CreateNewOutputRows();
-
-        FinishOutputs();
-        MarkOutputsFinished();
-
-    }
-
-    public virtual void CreateNewOutputRows()
-    {
-    }
-
-}
-
-public class Connections
-{
-    ScriptComponent ParentComponent;
-
-    public Connections(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-
-public class Variables
-{
-    ScriptComponent ParentComponent;
-
-    public Variables(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-]]></arrayElement>
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{869D336B-057E-4BDF-8D3F-AFB35736DFF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_49f8aa9cc3b44d70a2ebd9563ca0622f</RootNamespace>
+    <AssemblyName>SC_49f8aa9cc3b44d70a2ebd9563ca0622f</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptComponent" IconIndex="0" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
                     <arrayElement
@@ -2727,7 +2732,7 @@ public class ScriptMain : UserComponent
      */
     #endregion
 
-    private readonly string _downloadUrl = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json";    
+    private readonly string _downloadUrl = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json";
     private string jsonFileContent;
 
     public class JSONData
@@ -2736,8 +2741,8 @@ public class ScriptMain : UserComponent
         public string Txt { get; set; }
         public string Rate { get; set; }
         public string CC { get; set; }
-        public string Exchangedate { get; set; }        
-    }    
+        public string Exchangedate { get; set; }
+    }
 
     public static string DownloadJson(string downloadURL)
     {
@@ -2745,7 +2750,7 @@ public class ScriptMain : UserComponent
         {
             return client.DownloadString(downloadURL);
         }
-    }    
+    }
 
     /// <summary>
     /// This method is called once, before rows begin to be processed in the data flow.
@@ -2762,7 +2767,7 @@ public class ScriptMain : UserComponent
         // чтение и изменение кодировки текста
         jsonFileContent = DownloadJson(_downloadUrl);
         byte[] toEncodeAsBytes = System.Text.Encoding.Default.GetBytes(jsonFileContent);
-        jsonFileContent = System.Text.Encoding.UTF8.GetString(toEncodeAsBytes);        
+        jsonFileContent = System.Text.Encoding.UTF8.GetString(toEncodeAsBytes);
     }
 
     /// <summary>
@@ -2788,7 +2793,7 @@ public class ScriptMain : UserComponent
         JavaScriptSerializer js = new JavaScriptSerializer();
         var records = js.Deserialize<List<JSONData>>(jsonFileContent);
 
-        NumberFormatInfo provider = new NumberFormatInfo { NumberDecimalSeparator = ".", NumberGroupSeparator = ","};
+        NumberFormatInfo provider = new NumberFormatInfo { NumberDecimalSeparator = ".", NumberGroupSeparator = "," };
         double _forc = 100;
 
         foreach (var o in records)
@@ -2796,15 +2801,14 @@ public class ScriptMain : UserComponent
             Выход0Buffer.AddRow();
             Выход0Buffer.r030 = o.R030;
             Выход0Buffer.txt = o.Txt;
-            Выход0Buffer.rate = Convert.ToString(Convert.ToDouble(o.Rate, provider)*_forc);
+            Выход0Buffer.rate = Convert.ToString(Convert.ToDouble(o.Rate, provider) * _forc);
             Выход0Buffer.cc = o.CC;
             Выход0Buffer.exchangedate = o.Exchangedate;
             Выход0Buffer.forc = (int)_forc;
-        }        
+        }
     }
 
-}
-]]></arrayElement>
+}]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
                     <arrayElement
@@ -2830,14 +2834,14 @@ public class Выход0Buffer: ScriptBuffer
     {
     }
 
-    public String r030
+    public String exchangedate
     {
         set
         {
             this[0] = value;
         }
     }
-    public bool r030_IsNull
+    public bool exchangedate_IsNull
     {
         set
         {
@@ -2852,14 +2856,14 @@ public class Выход0Buffer: ScriptBuffer
         }
     }
 
-    public String txt
+    public String cc
     {
         set
         {
             this[1] = value;
         }
     }
-    public bool txt_IsNull
+    public bool cc_IsNull
     {
         set
         {
@@ -2896,14 +2900,14 @@ public class Выход0Buffer: ScriptBuffer
         }
     }
 
-    public String cc
+    public String txt
     {
         set
         {
             this[3] = value;
         }
     }
-    public bool cc_IsNull
+    public bool txt_IsNull
     {
         set
         {
@@ -2918,14 +2922,14 @@ public class Выход0Buffer: ScriptBuffer
         }
     }
 
-    public String exchangedate
+    public Int32 forc
     {
         set
         {
             this[4] = value;
         }
     }
-    public bool exchangedate_IsNull
+    public bool forc_IsNull
     {
         set
         {
@@ -2940,14 +2944,14 @@ public class Выход0Buffer: ScriptBuffer
         }
     }
 
-    public Int32 forc
+    public String r030
     {
         set
         {
             this[5] = value;
         }
     }
-    public bool forc_IsNull
+    public bool r030_IsNull
     {
         set
         {
@@ -2980,99 +2984,93 @@ public class Выход0Buffer: ScriptBuffer
 }
 ]]></arrayElement>
                     <arrayElement
-                      dataType="System.String"><![CDATA[SC_97a003862ff24876a0ec40484e6a7aa0.csproj]]></arrayElement>
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[UTF8]]></arrayElement>
                     <arrayElement
-                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{161E7854-EC04-470A-91B1-C7C28F02226D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SC_97a003862ff24876a0ec40484e6a7aa0</RootNamespace>
-    <AssemblyName>SC_97a003862ff24876a0ec40484e6a7aa0</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.TxScript, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Compile Include="main.cs" />
-    <Compile Include="BufferWrapper.cs" />
-    <Compile Include="ComponentWrapper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptComponent" IconIndex="0" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_SC150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></arrayElement>
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public Выход0Buffer Выход0Buffer;
+
+    public virtual void FinishOutputs()
+    {
+    }
+
+    private void MarkOutputsFinished()
+    {
+
+        if (null != Выход0Buffer)
+        {
+            Выход0Buffer.SetEndOfRowset();
+            Выход0Buffer = null;
+        }
+
+    }
+
+    public override void PrimeOutput(int Outputs, int[] OutputIDs, PipelineBuffer[] Buffers, OutputNameMap OutputMap)
+    {
+       for(int Idx = 0; Idx < Outputs; Idx++)
+       {
+            if(OutputIDs[Idx] == GetOutputID(OutputMap, @"Выход 0"))
+            {
+                Выход0Buffer = new Выход0Buffer(Buffers[Idx], GetColumnIndexes(OutputIDs[Idx]), OutputMap);
+            }
+        }
+
+        CreateNewOutputRows();
+
+        FinishOutputs();
+        MarkOutputsFinished();
+
+    }
+
+    public virtual void CreateNewOutputRows()
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
                     <arrayElement
@@ -3087,10 +3085,10 @@ public class Выход0Buffer: ScriptBuffer
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Settings.get_Default():SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Sett" +
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Settings.get_Default():SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Sett" +
     "ings")]
 
-namespace SC_97a003862ff24876a0ec40484e6a7aa0.Properties {
+namespace SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties {
     
     
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
@@ -3114,17 +3112,17 @@ namespace SC_97a003862ff24876a0ec40484e6a7aa0.Properties {
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
   <msb:PropertyGroup>
-    <msb:CodeName>SC_97a003862ff24876a0ec40484e6a7aa0</msb:CodeName>
+    <msb:CodeName>SC_49f8aa9cc3b44d70a2ebd9563ca0622f</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>SC_97a003862ff24876a0ec40484e6a7aa0</msb:DisplayName>
-    <msb:ProjectId>{B4FB2603-113A-4983-BA5D-8E83AFC9DB7F}</msb:ProjectId>
+    <msb:DisplayName>SC_49f8aa9cc3b44d70a2ebd9563ca0622f</msb:DisplayName>
+    <msb:ProjectId>{9F220CA9-FFA3-42E3-8685-743189647925}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
-    <msb:Project Include="SC_97a003862ff24876a0ec40484e6a7aa0.csproj" />
+    <msb:Project Include="SC_49f8aa9cc3b44d70a2ebd9563ca0622f.csproj" />
+    <msb:File Include="ComponentWrapper.cs" />
     <msb:File Include="Properties\Settings.Designer.cs" />
     <msb:File Include="main.cs" />
     <msb:File Include="BufferWrapper.cs" />
-    <msb:File Include="ComponentWrapper.cs" />
     <msb:File Include="Properties\Settings.settings" />
     <msb:File Include="Properties\AssemblyInfo.cs" />
     <msb:File Include="Properties\Resources.resx" />
@@ -3144,11 +3142,11 @@ using System.Runtime.CompilerServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly: AssemblyTitle("SC_97a003862ff24876a0ec40484e6a7aa0")]
+[assembly: AssemblyTitle("SC_49f8aa9cc3b44d70a2ebd9563ca0622f")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SC_97a003862ff24876a0ec40484e6a7aa0")]
+[assembly: AssemblyProduct("SC_49f8aa9cc3b44d70a2ebd9563ca0622f")]
 [assembly: AssemblyCopyright("Copyright @  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -3191,14 +3189,14 @@ using System.Runtime.CompilerServices;
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
     "rceManager")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
     "fo")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
     "):Void")]
 
-namespace SC_97a003862ff24876a0ec40484e6a7aa0.Properties {
+namespace SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties {
     
     
     /// <summary>
@@ -3226,7 +3224,7 @@ namespace SC_97a003862ff24876a0ec40484e6a7aa0.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_97a003862ff24876a0ec40484e6a7aa0.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_49f8aa9cc3b44d70a2ebd9563ca0622f.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -3260,11 +3258,11 @@ namespace SC_97a003862ff24876a0ec40484e6a7aa0.Properties {
                   <arrayElements
                     arrayElementCount="2">
                     <arrayElement
-                      dataType="System.String"><![CDATA[SC_97a003862ff24876a0ec40484e6a7aa0.dll]]></arrayElement>
+                      dataType="System.String"><![CDATA[SC_49f8aa9cc3b44d70a2ebd9563ca0622f.dll]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAEiVzGEAAAAAAAAAAOAAIiALATAAABwAAAAIAAAAAAAAujsA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAD2jzWEAAAAAAAAAAOAAIiALATAAABwAAAAIAAAAAAAAujsA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAGg7AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3276,13 +3274,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswAgAcAAAAAQAAEXMQAAAKCgYCbxEAAAoL3goGLAYGbxIA
 AArcByoBEAAAAgAGAAoQAAoAAAAAEzADADoAAAACAAARAigTAAAKAgJ7AQAABCgBAAAGfQIAAAQo
 FAAACgJ7AgAABG8VAAAKCgIoFgAACgZvFwAACn0CAAAEKh4CKBgAAAoqAAAbMAQA4AAAAAMAABFz
 GQAACgJ7AgAABG8BAAArcxsAAAolcgEAAHBvHAAACiVyBQAAcG8dAAAKCiMAAAAAAABZQAtvHgAA
-Cgw4ggAAABICKB8AAAoNAnsFAAAEbxMAAAYCewUAAAQJbyQAAAZvBwAABgJ7BQAABAlvJgAABm8J
-AAAGAnsFAAAECW8oAAAGBiggAAAKB1ooIQAACm8LAAAGAnsFAAAECW8qAAAGbw0AAAYCewUAAAQJ
-bywAAAZvDwAABgJ7BQAABAdpbxEAAAYSAigiAAAKOnL////eDhIC/hYCAAAbbxIAAArcKgEQAAAC
+Cgw4ggAAABICKB8AAAoNAnsFAAAEbxMAAAYCewUAAAQJbyQAAAZvEQAABgJ7BQAABAlvJgAABm8N
+AAAGAnsFAAAECW8oAAAGBiggAAAKB1ooIQAACm8LAAAGAnsFAAAECW8qAAAGbwkAAAYCewUAAAQJ
+bywAAAZvBwAABgJ7BQAABAdpbw8AAAYSAigiAAAKOnL////eDhIC/hYCAAAbbxIAAArcKgEQAAAC
 ADwAldEADgAAAABKAnIJAABwfQEAAAQCKBYAAAYqKgIDBAUoIwAACiomAhYDKCQAAAoqWgMsCAIW
 KCUAAAoqco4AAHBzJgAACnomAhcDKCQAAAoqWgMsCAIXKCUAAAoqco4AAHBzJgAACnomAhgDKCQA
 AAoqWgMsCAIYKCUAAAoqco4AAHBzJgAACnomAhkDKCQAAAoqWgMsCAIZKCUAAAoqco4AAHBzJgAA
-CnomAhoDKCQAAAoqWgMsCAIaKCUAAAoqco4AAHBzJgAACno6AhsDjCQAAAEoJAAACipaAywIAhso
+Cno6AhoDjCQAAAEoJAAACipaAywIAhooJQAACipyjgAAcHMmAAAKeiYCGwMoJAAACipaAywIAhso
 JQAACipyjgAAcHMmAAAKeh4CKCcAAAoqHgIoKAAACioeAigpAAAKKn4CKCoAAAoCAnMbAAAGfQMA
 AAQCAnMcAAAGfQQAAAQqBipuAnsFAAAELBICewUAAARvFAAABgIUfQUAAAQqABMwBQBJAAAABAAA
 ERYKKy4EBpQOBHI7AQBwKCsAAAozGQIFBpoCBAaUKCwAAAoOBHMGAAAGfQUAAAQGF1gKBgMyzgJv
@@ -3293,67 +3291,67 @@ AAAEKh4Cew0AAAQqIgIDfQ0AAAQqHgJ7DgAABCoiAgN9DgAABCoeAnsPAAAEKiICA30PAAAEKgAA
 QlNKQgEAAQAAAAAADAAAAHY0LjAuMzAzMTkAAAAABQBsAAAA+AgAACN+AABkCQAALAkAACNTdHJp
 bmdzAAAAAJASAADAAQAAI1VTAFAUAAAQAAAAI0dVSUQAAABgFAAAFAIAACNCbG9iAAAAAAAAAAIA
 AAFXFaIJCQsAAAD6ATMAFgAAAQAAACcAAAAJAAAADwAAAC4AAAAcAAAAMQAAAB8AAAAEAAAABAAA
-ABQAAAAaAAAAAgAAAAEAAAAFAAAAAQAAAAEAAAABAAAAAACFBAEAAAAAAAYATwPZBgYA4wPZBgYA
-mwLGBg8ATQcAAAYAyAKYBQYAMgOYBQYAEwOYBQYAygOYBQYAbwOYBQYAiAOYBQYA3wKYBQYA+gIz
-BAoAowOSAQ4ARQgfCAYA3QVjBQYAQACeAEMApAYAAAYAGAgwBQYAYwLZBgoANwaSARIAKAaSAQoA
-7gWSAQoAbQiSAQYAfgLGBgYASAb5BgYA0QVjBQ4ATgJvBA4ArwJvBA4A4AFOBQYAWQEwBQYAKgQE
-CRYAWAZ4BQYAtggwBQYABgYwBQYAqgUwBQYARwAwBQYAswEwBQYAbgEwBQYAIwmYBQAAAABWAAAA
+ABQAAAAaAAAAAgAAAAEAAAAFAAAAAQAAAAEAAAABAAAAAACFBAEAAAAAAAYAKwPZBgYAvwPZBgYA
+dwLGBg8ATQcAAAYApAKYBQYADgOYBQYA7wKYBQYApgOYBQYASwOYBQYAZAOYBQYAuwKYBQYA1gIz
+BAoAfwNuAQ4ARQgfCAYA3QVjBQYAHAB6AEMApAYAAAYAGAgwBQYAPwLZBgoANwZuARIAKAZuAQoA
+7gVuAQoAbQhuAQYAWgLGBgYASAb5BgYA0QVjBQ4AKgJvBA4AiwJvBA4AvAFOBQYANQEwBQYAKgQE
+CRYAWAZ4BQYAtggwBQYABgYwBQYAqgUwBQYAIwAwBQYAjwEwBQYASgEwBQYAIwmYBQAAAAAyAAAA
 AAABAAEAAQAQAEMFAAAQAAEAAQABABAAFgYAAFEAAwAGAAEAEABPCAAAXQADABYAAQAQAOIHAABJ
-AAYAGwABABAAiwcAAEkABwAcAAAAEAAAB1wHSQAIAB0AAAEQAMMHXAd1AAoAIQACABAAhQAAAEkA
-CwAkACEAGgXaAAEAiQjaAAYA4gfdAAYAiwfhAAYAFgblAAEAXQjpAAEAXQjpABEANwXtABEA0AHx
-ABEASQH1AAEA1gDaAAEANAHaAAEAAAHaAAEA7ADaAAEAFgHaAFAgAAAAAJYAxAX5AAEAiCAAAAAA
-xgABBAYAAgDOIAAAAADGAAwEBgACANggAAAAAMYABAgGAAIA1CEAAAAAhhivBgYAAgDnIQAAAACG
-GK8GhwACAPIhAAAAAIYIEwAQAAUA/CEAAAAAhgitBP4ABgATIgAAAACGCBAJEAAHAB0iAAAAAIYI
-AwX+AAgANCIAAAAAhghFAhAACQA+IgAAAACGCPME/gAKAFUiAAAAAIYIlwAQAAsAXyIAAAAAhgi9
-BP4ADAB2IgAAAACGCDQCEAANAIAiAAAAAIYI2wT+AA4AlyIAAAAAhgi5AAEADwCmIgAAAACGCMsE
+AAYAGwABABAAiwcAAEkABwAcAAAAEAAAB1wHSQAIAB0AAAEQAMMHXAd1AAoAIQACABAAYQAAAEkA
+CwAkACEAGgXaAAEAiQjaAAYA4gfdAAYAiwfhAAYAFgblAAEAXQjpAAEAXQjpABEANwXtABEArAHx
+ABEAJQH1AAEAsgDaAAEAEAHaAAEA3ADaAAEAyADaAAEA8gDaAFAgAAAAAJYAxAX5AAEAiCAAAAAA
+xgDdAwYAAgDOIAAAAADGAOgDBgACANggAAAAAMYABAgGAAIA1CEAAAAAhhivBgYAAgDnIQAAAACG
+GK8GhwACAPIhAAAAAIYIEAIQAAUA/CEAAAAAhgjbBP4ABgATIgAAAACGCHMAEAAHAB0iAAAAAIYI
+vQT+AAgANCIAAAAAhgghAhAACQA+IgAAAACGCPME/gAKAFUiAAAAAIYIEAkQAAsAXyIAAAAAhggD
+Bf4ADAB2IgAAAACGCJUAAQANAIUiAAAAAIYIywT+AA4AnCIAAAAAhggTABAADwCmIgAAAACGCK0E
 /gAQAL0iAAAAAIYAGAkGABEAxSIAAAAAhgAqCAYAEQDNIgAAAACGAC0IgwARANUiAAAAAIYYrwYG
-ABEA9SIAAAAAxgH2BwYAEQD3IgAAAACBAMIABgARABQjAAAAAMYA3wgDAREA9SIAAAAAxgEECAYA
+ABEA9SIAAAAAxgH2BwYAEQD3IgAAAACBAJ4ABgARABQjAAAAAMYA3wgDAREA9SIAAAAAxgEECAYA
 FQBpIwAAAACGGK8GDwEVAHgjAAAAAIYYrwYPARYAhyMAAAAAgxivBgYAFwCPIwAAAACTCEQGFQEX
-ALsjAAAAAJMIuAEaARcAwiMAAAAAkwjEAR8BFwDKIwAAAACWCDkIJQEYANEjAAAAAIYYrwYGABgA
+ALsjAAAAAJMIlAEaARcAwiMAAAAAkwigAR8BFwDKIwAAAACWCDkIJQEYANEjAAAAAIYYrwYGABgA
 2SMAAAAAkRi1BioBGADlIwAAAACGCAEALgEYAO0jAAAAAIYICgAQABgA9iMAAAAAhgjrCC4BGQD+
-IwAAAACGCPMIEAAZAAckAAAAAIYIAAIuARoADyQAAAAAhggJAhAAGgAYJAAAAACGCF8ALgEbACAk
-AAAAAIYIZgAQABsAKSQAAAAAhggSAi4BHAAxJAAAAACGCCMCEAAcAIcjAAAAAIYYrwYGAB0AAAAB
-AHkAAAABAD0GAAACAJ4HAAADAPwFAAABABgEAAABABgEAAABABgEAAABABgEAAABABgEAAABABgE
-AAABABgEAAABABgEAAABABgEAAABABgEAAABABgEAAABABgEAAABAPwHAAACALwGAAADAO4HAAAE
-APwFAAABAHMIAAABAHMIAAABABgEAAABABgEAAABABgEAAABABgEAAABABgEAAABABgECQCvBgEA
+IwAAAACGCPMIEAAZAAckAAAAAIYI3AEuARoADyQAAAAAhgjlARAAGgAYJAAAAACGCDsALgEbACAk
+AAAAAIYIQgAQABsAKSQAAAAAhgjuAS4BHAAxJAAAAACGCP8BEAAcAIcjAAAAAIYYrwYGAB0AAAAB
+AFUAAAABAD0GAAACAJ4HAAADAPwFAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQD
+AAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPwHAAACALwGAAADAO4HAAAE
+APwFAAABAHMIAAABAHMIAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQDAAABAPQDCQCvBgEA
 EQCvBgYAGQCvBgoAKQCvBhAAMQCvBhAAOQCvBhAAQQCvBhAASQCvBhAAUQCvBhAAWQCvBhAAYQCv
-BhAAaQCvBgYAmQCvBgYAwQCvBgYA4QCvBhUAcQCvBgYAcQBNBCEA8QD4AQYAuQABBAYA+QA5CCsA
-+QCVBzAA+QBNACsA+QBlBDYAuQAMBAYAAQGvBgYAAQEeBEoAeQCvBgYAeQBtBhAAeQCIBhAADACh
-BmEAFAB9CHEACQFlAXYACQFcBH4AFAD7CIMAoQCvBocAoQAnBZEAoQASBQEAGQGvBhAAoQAYCQYA
-oQAqCAYAoQAtCIMAuQCvBgYAuQBtAJsAuQCyB6IAkQCvBgYAKQGAAagAKQEfCbEAyQCvBrcA6QCv
+BhAAaQCvBgYAmQCvBgYAwQCvBgYA4QCvBhUAcQCvBgYAcQBNBCEA8QDUAQYAuQDdAwYA+QA5CCsA
++QCVBzAA+QApACsA+QBlBDYAuQDoAwYAAQGvBgYAAQH6A0oAeQCvBgYAeQBtBhAAeQCIBhAADACh
+BmEAFAB9CHEACQFBAXYACQFcBH4AFAD7CIMAoQCvBocAoQAnBZEAoQASBQEAGQGvBhAAoQAYCQYA
+oQAqCAYAoQAtCIMAuQCvBgYAuQBJAJsAuQCyB6IAkQCvBgYAKQFcAagAKQEfCbEAyQCvBrcA6QCv
 BgYALgALAE0BLgATAFYBLgAbAHUBLgAjAH4BLgArAKcBLgAzAKcBLgA7AKcBLgBDAH4BLgBLAK0B
 LgBTAKcBLgBbAMQBQwBjAA4C4wBzAA4CQQFrAA4CYQFrAA4CgQFrAA4CoQFrAA4CqQF7AHUBwQFr
 AA4CyQF7AHUB4QFrAA4CgARrAA4CoARrAA4CwARrAA4C4ARrAA4CAAVrAA4CIAVrAA4CQAVrAA4C
-YAVrAA4CgAVrAA4CoAVrAA4CGwAmADwAlwADAAEABwANAAgADwAJABAAAAAXADIBAACxBDYBAAAU
-CTIBAAAHBTYBAABJAjIBAAD3BDYBAACbADIBAADBBDYBAAA4AjIBAADfBDYBAAC9ADoBAADPBDYB
-AABIBj4BAADYAUMBAAA9CEgBAAAOADIBAAD3CDIBAAANAjIBAABqADIBAAAnAjIBAQAHAAMAAQAI
+YAVrAA4CgAVrAA4CoAVrAA4CGwAmADwAlwADAAEABwANAAgADwAJABAAAAAUAjIBAADfBDYBAAB3
+ADIBAADBBDYBAAAlAjIBAAD3BDYBAAAUCTIBAAAHBTYBAACZADoBAADPBDYBAAAXADIBAACxBDYB
+AABIBj4BAAC0AUMBAAA9CEgBAAAOADIBAAD3CDIBAADpATIBAABGADIBAAADAjIBAQAHAAMAAQAI
 AAUAAQAJAAcAAQAKAAkAAQALAAsAAQAMAA0AAQANAA8AAQAOABEAAQAPABMAAQAQABUAAQARABcA
 AQASABkAAgAeABsAAgAfAB0AAQAgAB0AAgAhAB8AAgAkACEAAQAlACEAAgAmACMAAQAnACMAAgAo
-ACUAAQApACUAAgAqACcAAQArACcAAgAsACkAAQAtACkAWgBqAASAAAABAAAAAAAAAAAAAAAAABwA
-AAAEAAAAAAAAAAAAAAC/AI4AAAAAAA8AAAAAAAAAAAAAAMgAmQgAAAAABAAAAAAAAAAAAAAAvwAw
+ACUAAQApACUAAgAqACcAAQArACcAAgAsACkAAQAtACkAWgBqAASAAAABAAAAAAAAAAAAAAAAAAYE
+AAAEAAAAAAAAAAAAAAC/AGoAAAAAAA8AAAAAAAAAAAAAAMgAmQgAAAAABAAAAAAAAAAAAAAAvwAw
 BQAAAAAPAAAAAAAAAAAAAADIAL4IAAAAAAQAAAAAAAAAAAAAANEAzAcAAAAAAAAAAAEAAAAKBwAA
-CQACADUAUQAAAABnZXRfUjAzMABzZXRfUjAzMABzZXRfcjAzMABTQ185N2EwMDM4NjJmZjI0ODc2
-YTBlYzQwNDg0ZTZhN2FhMABMaXN0YDEASW50MzIAZ2V0X1VURjgAPE1vZHVsZT4AZ2V0X0NDAHNl
-dF9DQwBHZXRPdXRwdXRJRABkb3dubG9hZFVSTABKU09ORGF0YQBtc2NvcmxpYgBzZXRfY2MAU3lz
-dGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMAc2V0X2ZvcmMATWFya091dHB1dHNGaW5pc2hlZAA8UjAz
-MD5rX19CYWNraW5nRmllbGQAPENDPmtfX0JhY2tpbmdGaWVsZAA8UmF0ZT5rX19CYWNraW5nRmll
-bGQAPEV4Y2hhbmdlZGF0ZT5rX19CYWNraW5nRmllbGQAPFR4dD5rX19CYWNraW5nRmllbGQAZGVm
-YXVsdEluc3RhbmNlAElEaXNwb3NhYmxlAFRvRG91YmxlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5
-cGVGcm9tSGFuZGxlAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlBpcGVsaW5lAFR5cGUAZ2V0X0N1
-bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAEFwcGxpY2F0aW9uU2V0dGluZ3NCYXNl
-AERpc3Bvc2UAZ2V0X1JhdGUAc2V0X1JhdGUAZ2V0X0V4Y2hhbmdlZGF0ZQBzZXRfRXhjaGFuZ2Vk
-YXRlAHNldF9leGNoYW5nZWRhdGUAc2V0X3JhdGUARWRpdG9yQnJvd3NhYmxlU3RhdGUAQ29tcGls
-ZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2VyQ29kZUF0dHJpYnV0ZQBEZWJ1Z2dh
-YmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0ZQBBc3NlbWJseVRpdGxlQXR0cmli
-dXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdldEZyYW1ld29ya0F0dHJpYnV0ZQBB
-c3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1ibHlEZXNjcmlwdGlvbkF0dHJpYnV0
-ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFzc2VtYmx5UHJvZHVjdEF0dHJpYnV0
-ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2NyaXB0Q29tcG9uZW50RW50cnlQb2lu
-dEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlB
-dHRyaWJ1dGUAUHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQB2YWx1ZQBEZXNlcmlhbGl6ZQBFbmNvZGlu
+CQACADUAUQAAAABnZXRfUjAzMABzZXRfUjAzMABzZXRfcjAzMABMaXN0YDEASW50MzIAZ2V0X1VU
+RjgAPE1vZHVsZT4AZ2V0X0NDAHNldF9DQwBHZXRPdXRwdXRJRABkb3dubG9hZFVSTABKU09ORGF0
+YQBtc2NvcmxpYgBzZXRfY2MAU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMAc2V0X2ZvcmMATWFy
+a091dHB1dHNGaW5pc2hlZAA8UjAzMD5rX19CYWNraW5nRmllbGQAPENDPmtfX0JhY2tpbmdGaWVs
+ZAA8UmF0ZT5rX19CYWNraW5nRmllbGQAPEV4Y2hhbmdlZGF0ZT5rX19CYWNraW5nRmllbGQAPFR4
+dD5rX19CYWNraW5nRmllbGQAZGVmYXVsdEluc3RhbmNlAElEaXNwb3NhYmxlAFRvRG91YmxlAFJ1
+bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFuZGxlAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRz
+LlBpcGVsaW5lAFR5cGUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAEFw
+cGxpY2F0aW9uU2V0dGluZ3NCYXNlAERpc3Bvc2UAZ2V0X1JhdGUAc2V0X1JhdGUAZ2V0X0V4Y2hh
+bmdlZGF0ZQBzZXRfRXhjaGFuZ2VkYXRlAHNldF9leGNoYW5nZWRhdGUAc2V0X3JhdGUARWRpdG9y
+QnJvd3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2Vy
+Q29kZUF0dHJpYnV0ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0
+ZQBBc3NlbWJseVRpdGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdl
+dEZyYW1ld29ya0F0dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1i
+bHlEZXNjcmlwdGlvbkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFz
+c2VtYmx5UHJvZHVjdEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2Ny
+aXB0Q29tcG9uZW50RW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUA
+UnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAUHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQB2YWx1
+ZQBEZXNlcmlhbGl6ZQBTQ180OWY4YWE5Y2MzYjQ0ZDcwYTJlYmQ5NTYzY2EwNjIyZgBFbmNvZGlu
 ZwBTeXN0ZW0uUnVudGltZS5WZXJzaW9uaW5nAERvd25sb2FkU3RyaW5nAFRvU3RyaW5nAEdldFN0
-cmluZwBTeXN0ZW0uQ29tcG9uZW50TW9kZWwAU0NfOTdhMDAzODYyZmYyNDg3NmEwZWM0MDQ4NGU2
-YTdhYTAuZGxsAHNldF9yMDMwX0lzTnVsbABzZXRfY2NfSXNOdWxsAHNldF9mb3JjX0lzTnVsbABz
+cmluZwBTeXN0ZW0uQ29tcG9uZW50TW9kZWwAU0NfNDlmOGFhOWNjM2I0NGQ3MGEyZWJkOTU2M2Nh
+MDYyMmYuZGxsAHNldF9yMDMwX0lzTnVsbABzZXRfY2NfSXNOdWxsAHNldF9mb3JjX0lzTnVsbABz
 ZXRfZXhjaGFuZ2VkYXRlX0lzTnVsbABzZXRfcmF0ZV9Jc051bGwAc2V0X3R4dF9Jc051bGwAU2V0
 TnVsbABfZG93bmxvYWRVcmwAc2V0X0l0ZW0AU3lzdGVtAHJlc291cmNlTWFuAFNjcmlwdE1haW4A
 U3lzdGVtLkNvbmZpZ3VyYXRpb24AU3lzdGVtLkdsb2JhbGl6YXRpb24AU3lzdGVtLldlYi5TY3Jp
@@ -3363,9 +3361,9 @@ YXAAT3V0cHV0TWFwAElGb3JtYXRQcm92aWRlcgDQktGL0YXQvtC0MEJ1ZmZlcgBQaXBlbGluZUJ1
 ZmZlcgBTY3JpcHRCdWZmZXIAZ2V0X1Jlc291cmNlTWFuYWdlcgBKYXZhU2NyaXB0U2VyaWFsaXpl
 cgBzZXRfTnVtYmVyRGVjaW1hbFNlcGFyYXRvcgBzZXRfTnVtYmVyR3JvdXBTZXBhcmF0b3IAR2V0
 RW51bWVyYXRvcgAuY3RvcgAuY2N0b3IAT3V0cHV0SURzAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0
-ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU0NfOTdhMDAzODYy
-ZmYyNDg3NmEwZWM0MDQ4NGU2YTdhYTAuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERl
-YnVnZ2luZ01vZGVzAFNDXzk3YTAwMzg2MmZmMjQ4NzZhMGVjNDA0ODRlNmE3YWEwLlByb3BlcnRp
+ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU0NfNDlmOGFhOWNj
+M2I0NGQ3MGEyZWJkOTU2M2NhMDYyMmYuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERl
+YnVnZ2luZ01vZGVzAFNDXzQ5ZjhhYTljYzNiNDRkNzBhMmViZDk1NjNjYTA2MjJmLlByb3BlcnRp
 ZXMAVmFyaWFibGVzAEdldEJ5dGVzAEJ1ZmZlckNvbHVtbkluZGV4ZXMAR2V0Q29sdW1uSW5kZXhl
 cwBTZXR0aW5ncwBTeXN0ZW0uV2ViLkV4dGVuc2lvbnMAQ29ubmVjdGlvbnMAQnVmZmVycwBGaW5p
 c2hPdXRwdXRzAENyZWF0ZU5ld091dHB1dFJvd3MAT2JqZWN0AFN5c3RlbS5OZXQAU2V0RW5kT2ZS
@@ -3379,16 +3377,16 @@ dABkAGkAcgBlAGMAdABvAHIAeQAvAGUAeABjAGgAYQBuAGcAZQA/AGoAcwBvAG4AAICrIQQyBD4E
 OQRBBEIEMgQ+BCAASQBzAE4AdQBsAGwAIAA9BDUEIAA8BD4ENgQ1BEIEIAA4BDwENQRCBEwEIAA3
 BD0EMARHBDUEPQQ4BDUEIABGAEEATABTAEUALgAgAB8EQAQ4BEEEMgQ+BDkEQgQ1BCAAQQRCBD4E
 OwQxBEYEQwQgADoEMAQ6BD4ENQQtADsEOAQxBD4EIAA3BD0EMARHBDUEPQQ4BDUELgABDxIESwRF
-BD4ENAQgADAAAXFTAEMAXwA5ADcAYQAwADAAMwA4ADYAMgBmAGYAMgA0ADgANwA2AGEAMABlAGMA
-NAAwADQAOAA0AGUANgBhADcAYQBhADAALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1
-AHIAYwBlAHMAAAAAADjUYztqtRxMgCxwt5udL4QABCABAQgDIAABBSABARERBCABAQ4FIAEBEW0F
+BD4ENAQgADAAAXFTAEMAXwA0ADkAZgA4AGEAYQA5AGMAYwAzAGIANAA0AGQANwAwAGEAMgBlAGIA
+ZAA5ADUANgAzAGMAYQAwADYAMgAyAGYALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1
+AHIAYwBlAHMAAAAAAOFGPh+eyOlIq8b4xkXJ0HcABCABAQgDIAABBSABARERBCABAQ4FIAEBEW0F
 BwISOQ4EIAEODgQHAR0FBAAAEn0FIAEdBQ4FIAEOHQUNBwQSPQ0VEUUBEiQSJAYwAQEeAA4ICgEV
 EkEBEiQGFRJBARIkCCAAFRFFARMABhURRQESJAQgABMABwACDQ4SgIkEAAEODQMgAAIJIAMBElUd
 CBJZBSACAQgcAwcBCAYAAggSWQ4FIAEdCAgIAAESgJURgJkFIAASgJ0HIAIBDhKAnQi3elxWGTTg
 iQiJhF3NgIDMkQgxvzhWrTZONQIGDgMGEhQDBhIYAwYSDAMGEl0DBhJlAwYSaQMGEiAEAAEODgQg
 AQECCyAEAQgdCB0SVRJZBSABARJdBAAAEmUEAAASaQUAAQESaQQAABIgAwAAAQMgAA4DKAAOAygA
 AgMoAAgECAASZQQIABJpBAgAEiAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJv
-d3MBCAEAAgAAAAAAKAEAI1NDXzk3YTAwMzg2MmZmMjQ4NzZhMGVjNDA0ODRlNmE3YWEwAAAFAQAA
+d3MBCAEAAgAAAAAAKAEAI1NDXzQ5ZjhhYTljYzNiNDRkNzBhMmViZDk1NjNjYTA2MjJmAAAFAQAA
 AAAWAQARQ29weXJpZ2h0IEAgIDIwMjEAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNwEA
 VA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43BAEAAAAAtAAAAM7K774B
 AAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lv
@@ -3404,16 +3402,16 @@ VgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4AAAAA
 AAAAsARMAwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAAAoAwAAAQAwADAAMAAwADAA
 NABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABhAG4AeQBO
 AGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAAAFMA
-QwBfADkANwBhADAAMAAzADgANgAyAGYAZgAyADQAOAA3ADYAYQAwAGUAYwA0ADAANAA4ADQAZQA2
-AGEANwBhAGEAMAAAADAACAABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgAwAC4A
-MAAAAHAAKAABAEkAbgB0AGUAcgBuAGEAbABOAGEAbQBlAAAAUwBDAF8AOQA3AGEAMAAwADMAOAA2
-ADIAZgBmADIANAA4ADcANgBhADAAZQBjADQAMAA0ADgANABlADYAYQA3AGEAYQAwAC4AZABsAGwA
+QwBfADQAOQBmADgAYQBhADkAYwBjADMAYgA0ADQAZAA3ADAAYQAyAGUAYgBkADkANQA2ADMAYwBh
+ADAANgAyADIAZgAAADAACAABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgAwAC4A
+MAAAAHAAKAABAEkAbgB0AGUAcgBuAGEAbABOAGEAbQBlAAAAUwBDAF8ANAA5AGYAOABhAGEAOQBj
+AGMAMwBiADQANABkADcAMABhADIAZQBiAGQAOQA1ADYAMwBjAGEAMAA2ADIAMgBmAC4AZABsAGwA
 AABIABIAAQBMAGUAZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQAAABDAG8AcAB5AHIAaQBnAGgAdAAg
 AEAAIAAgADIAMAAyADEAAAAqAAEAAQBMAGUAZwBhAGwAVAByAGEAZABlAG0AYQByAGsAcwAAAAAA
-AAAAAHgAKAABAE8AcgBpAGcAaQBuAGEAbABGAGkAbABlAG4AYQBtAGUAAABTAEMAXwA5ADcAYQAw
-ADAAMwA4ADYAMgBmAGYAMgA0ADgANwA2AGEAMABlAGMANAAwADQAOAA0AGUANgBhADcAYQBhADAA
-LgBkAGwAbAAAAGgAJAABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAAAAAAUwBDAF8AOQA3AGEAMAAw
-ADMAOAA2ADIAZgBmADIANAA4ADcANgBhADAAZQBjADQAMAA0ADgANABlADYAYQA3AGEAYQAwAAAA
+AAAAAHgAKAABAE8AcgBpAGcAaQBuAGEAbABGAGkAbABlAG4AYQBtAGUAAABTAEMAXwA0ADkAZgA4
+AGEAYQA5AGMAYwAzAGIANAA0AGQANwAwAGEAMgBlAGIAZAA5ADUANgAzAGMAYQAwADYAMgAyAGYA
+LgBkAGwAbAAAAGgAJAABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAAAAAAUwBDAF8ANAA5AGYAOABh
+AGEAOQBjAGMAMwBiADQANABkADcAMABhADIAZQBiAGQAOQA1ADYAMwBjAGEAMAA2ADIAMgBmAAAA
 NAAIAAEAUAByAG8AZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAADgACAAB
 AEEAcwBzAGUAbQBiAGwAeQAgAFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADAALgAwAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3439,7 +3437,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   dataType="System.String"
                   description="Указывает проект средств Microsoft Visual Studio для приложений. Имена проектов должны быть уникальными в пределах пакета."
                   name="VSTAProjectName"
-                  typeConverter="NOTBROWSABLE">SC_97a003862ff24876a0ec40484e6a7aa0</property>
+                  typeConverter="NOTBROWSABLE">SC_49f8aa9cc3b44d70a2ebd9563ca0622f</property>
                 <property
                   dataType="System.String"
                   description="Указывает язык программирования, используемый скриптом."
@@ -3480,23 +3478,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="Выход 0">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
+                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
-                      name="r030" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
-                      name="txt" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
-                      name="rate" />
+                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
+                      name="exchangedate" />
                     <outputColumn
                       refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]"
                       dataType="wstr"
@@ -3504,16 +3490,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]"
                       name="cc" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
+                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
-                      name="exchangedate" />
+                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
+                      name="rate" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
+                      name="txt" />
                     <outputColumn
                       refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[forc]"
                       dataType="i4"
                       lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[forc]"
                       name="forc" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
+                      name="r030" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -3708,10 +3706,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   name="Входные данные преобразования данных">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Преобразование данных.Inputs[Входные данные преобразования данных].Columns[rate]"
-                      cachedDataType="cy"
-                      cachedName="rate"
-                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]" />
+                      refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Преобразование данных.Inputs[Входные данные преобразования данных].Columns[RATE]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="RATE"
+                      lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3736,7 +3735,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           containsID="true"
                           dataType="System.Int32"
                           description="Указывает входной столбец, служащий источником данных для преобразования."
-                          name="SourceInputColumnLineageID">#{Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Указывает, используются ли в столбце более производительные, не зависящие от локалей процедуры синтаксического анализа."
@@ -3785,7 +3784,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   <inputColumns>
                     <inputColumn
                       refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец.Inputs[Вход производного столбца].Columns[rate]"
-                      cachedDataType="cy"
+                      cachedDataType="wstr"
+                      cachedLength="50"
                       cachedName="rate"
                       lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]" />
                     <inputColumn
@@ -3796,7 +3796,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]" />
                     <inputColumn
                       refId="Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец.Inputs[Вход производного столбца].Columns[exchangedate]"
-                      cachedDataType="dbDate"
+                      cachedDataType="wstr"
+                      cachedLength="50"
                       cachedName="exchangedate"
                       lineageId="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]" />
                   </inputColumns>
@@ -7050,6 +7051,1549 @@ from curs</property>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Задача потока данных KURS_SSIS - XML WEB"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Задача потока данных"
+      DTS:DTSID="{f943d833-c361-4ead-8e5d-b07e404be1c2}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Задача потока данных KURS_SSIS - XML WEB"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Включает и выполняет пользовательский код скрипта. Пример: применение бизнес-правила, ограничивающего диапазон допустимых значений в столбце &quot;income&quot;, или суммирование значений в двух столбцах и вычисление среднего значения суммы.Корпорация Майкрософт (Microsoft Corporation). Microsoft SQL Server. Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support12"
+              description="Включает и выполняет пользовательский код скрипта. Пример: применение бизнес-правила, ограничивающего диапазон допустимых значений в столбце &quot;income&quot;, или суммирование значений в двух столбцах и вычисление среднего значения суммы."
+              name="Компонент скриптов"
+              version="12">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Хранит исходный код компонента"
+                  isArray="true"
+                  name="SourceCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="30">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public Выход0Buffer Выход0Buffer;
+
+    public virtual void FinishOutputs()
+    {
+    }
+
+    private void MarkOutputsFinished()
+    {
+
+        if (null != Выход0Buffer)
+        {
+            Выход0Buffer.SetEndOfRowset();
+            Выход0Buffer = null;
+        }
+
+    }
+
+    public override void PrimeOutput(int Outputs, int[] OutputIDs, PipelineBuffer[] Buffers, OutputNameMap OutputMap)
+    {
+       for(int Idx = 0; Idx < Outputs; Idx++)
+       {
+            if(OutputIDs[Idx] == GetOutputID(OutputMap, @"Выход 0"))
+            {
+                Выход0Buffer = new Выход0Buffer(Buffers[Idx], GetColumnIndexes(OutputIDs[Idx]), OutputMap);
+            }
+        }
+
+        CreateNewOutputRows();
+
+        FinishOutputs();
+        MarkOutputsFinished();
+
+    }
+
+    public virtual void CreateNewOutputRows()
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using System.Globalization;
+using System.IO;
+using System.Net;
+using System.Xml.Serialization;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    private readonly string _downloadUrl = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=EUR&date=20211230";
+
+    [XmlRoot("exchange")]
+    public class XMLDataList
+    {
+        [XmlElement("currency")]
+        public XMLData[] rezult;
+    }
+
+    public class XMLData
+    {
+        [XmlElement("r030")]
+        public string R030;
+        [XmlElement("txt")]
+        public string Txt;
+        [XmlElement("rate")]
+        public string Rate;
+        [XmlElement("cc")]
+        public string CC;
+        [XmlElement("exchangedate")]
+        public string Exchangedate;
+    }
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    public override void PreExecute()
+    {
+        base.PreExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    public override void CreateNewOutputRows()
+    {
+        /*
+          Add rows by calling the AddRow method on the member variable named "<Output Name>Buffer".
+          For example, call MyOutputBuffer.AddRow() if your output was named "MyOutput".
+        */
+        WebClient wc = new WebClient();
+        Stream fs = new MemoryStream(wc.DownloadData(_downloadUrl));
+        XmlSerializer xs = new XmlSerializer(typeof(XMLDataList));        
+        var records = (XMLDataList)xs.Deserialize(fs);
+
+        NumberFormatInfo provider = new NumberFormatInfo { NumberDecimalSeparator = ".", NumberGroupSeparator = "," };
+        double _forc = 100;
+
+        foreach (var o in records.rezult)
+        {
+            Выход0Buffer.AddRow();
+            Выход0Buffer.r030 = o.R030;
+            Выход0Buffer.txt = o.Txt;
+            Выход0Buffer.rate = Convert.ToString(Convert.ToDouble(o.Rate, provider) * _forc);
+            Выход0Buffer.cc = o.CC;
+            Выход0Buffer.exchangedate = o.Exchangedate;
+            Выход0Buffer.forc = (int)_forc;
+        }
+
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Выход0Buffer: ScriptBuffer
+
+{
+    public Выход0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public String exchangedate
+    {
+        set
+        {
+            this[0] = value;
+        }
+    }
+    public bool exchangedate_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(0);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    public String cc
+    {
+        set
+        {
+            this[1] = value;
+        }
+    }
+    public bool cc_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(1);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    public String txt
+    {
+        set
+        {
+            this[2] = value;
+        }
+    }
+    public bool txt_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(2);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    public String r030
+    {
+        set
+        {
+            this[3] = value;
+        }
+    }
+    public bool r030_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(3);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    public String rate
+    {
+        set
+        {
+            this[4] = value;
+        }
+    }
+    public bool rate_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(4);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    public Int32 forc
+    {
+        set
+        {
+            this[5] = value;
+        }
+    }
+    public bool forc_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(5);
+            }
+            else
+            {
+                throw new InvalidOperationException("Свойство IsNull не может иметь значение FALSE. Присвойте столбцу какое-либо значение.");
+            }
+        }
+    }
+
+    new public void AddRow()
+    {
+        base.AddRow();
+    }
+
+    new public void SetEndOfRowset()
+    {
+        base.SetEndOfRowset();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_4168c83b308741e4ade2cace88345aec.csproj]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4a4a0ba3-e32a-4c8d-bc45-98396b1ee17b}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_4168c83b308741e4ade2cace88345aec</RootNamespace>
+    <AssemblyName>SC_4168c83b308741e4ade2cace88345aec</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptComponent" GeneratedNamespace="SC_4168c83b308741e4ade2cace88345aec" IconIndex="0"></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_4168c83b308741e4ade2cace88345aec.Properties.Settings.get_Default():SC_4168c83b308741e4ade2cace88345aec.Properties.Sett" +
+    "ings")]
+
+namespace SC_4168c83b308741e4ade2cace88345aec.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Project]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>SC_4168c83b308741e4ade2cace88345aec</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>SC_4168c83b308741e4ade2cace88345aec</msb:DisplayName>
+    <msb:ProjectId>{F1DF2E51-8950-41A2-8022-86714C3B6BA0}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="SC_4168c83b308741e4ade2cace88345aec.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="main.cs" />
+    <msb:File Include="BufferWrapper.cs" />
+    <msb:File Include="ComponentWrapper.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_4168c83b308741e4ade2cace88345aec")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_4168c83b308741e4ade2cace88345aec")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_4168c83b308741e4ade2cace88345aec.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_4168c83b308741e4ade2cace88345aec.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_4168c83b308741e4ade2cace88345aec.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_4168c83b308741e4ade2cace88345aec.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_4168c83b308741e4ade2cace88345aec.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Хранит представление компонента в двоичном коде"
+                  isArray="true"
+                  name="BinaryCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="2">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_4168c83b308741e4ade2cace88345aec.dll]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDABSozWEAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAojgA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAFA4AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAqBgAAAAgAAAAGgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAcAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAIgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAACE
+OAAAAAAAAEgAAAACAAUAfCMAABwUAAABAAAAAAAAAJg3AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBIAAAoqHgIoEwAACioTMAQA+gAAAAEAABFzFAAACgJ7
+AQAABG8VAAAKcxYAAAoK0AkAAAIoFwAACnMYAAAKBm8ZAAAKdAkAAAJzGgAACiVyAQAAcG8bAAAK
+JXIFAABwbxwAAAoLIwAAAAAAAFlADHsKAAAEDRYTBDiLAAAACREEmhMFAnsEAAAEbxIAAAYCewQA
+AAQRBXsLAAAEbwwAAAYCewQAAAQRBXsMAAAEbwoAAAYCewQAAAQRBXsNAAAEBygdAAAKCFooHgAA
+Cm8OAAAGAnsEAAAEEQV7DgAABG8IAAAGAnsEAAAEEQV7DwAABG8GAAAGAnsEAAAECGlvEAAABhEE
+F1gTBBEECY5pP2v///8qSgJyCQAAcH0BAAAEAigVAAAGKioCAwQFKB8AAAoqJgIWAyggAAAKKloD
+LAgCFighAAAKKnK4AABwcyIAAAp6JgIXAyggAAAKKloDLAgCFyghAAAKKnK4AABwcyIAAAp6JgIY
+AyggAAAKKloDLAgCGCghAAAKKnK4AABwcyIAAAp6JgIZAyggAAAKKloDLAgCGSghAAAKKnK4AABw
+cyIAAAp6JgIaAyggAAAKKloDLAgCGighAAAKKnK4AABwcyIAAAp6OgIbA4wmAAABKCAAAAoqWgMs
+CAIbKCEAAAoqcrgAAHBzIgAACnoeAigjAAAKKh4CKCQAAAoqHgIoJQAACip+AigmAAAKAgJzGgAA
+Bn0CAAAEAgJzGwAABn0DAAAEKgYqbgJ7BAAABCwSAnsEAAAEbxMAAAYCFH0EAAAEKgAAABMwBQBJ
+AAAAAgAAERYKKy4EBpQOBHJlAQBwKCcAAAozGQIFBpoCBAaUKCgAAAoOBHMFAAAGfQQAAAQGF1gK
+BgMyzgJvGQAABgJvFgAABgIoFwAABio6AigpAAAKAgN9BQAABCo6AigpAAAKAgN9BgAABCoeAigp
+AAAKKq5+BwAABC0ecnUBAHDQBwAAAigXAAAKbyoAAApzKwAACoAHAAAEfgcAAAQqGn4IAAAEKh4C
+gAgAAAQqGn4JAAAEKh4CKCwAAAoqLnMhAAAGgAkAAAQqAAAAQlNKQgEAAQAAAAAADAAAAHY0LjAu
+MzAzMTkAAAAABQBsAAAAnAcAACN+AAAICAAA9AcAACNTdHJpbmdzAAAAAPwPAADoAQAAI1VTAOQR
+AAAQAAAAI0dVSUQAAAD0EQAAKAIAACNCbG9iAAAAAAAAAAIAAAFXFaIBCQMAAAD6ATMAFgAAAQAA
+ACcAAAAKAAAADwAAACQAAAAWAAAALAAAABcAAAACAAAAAwAAAA8AAAAQAAAAAQAAAAUAAAABAAAA
+AgAAAAAApgMBAAAAAAAGAG0C6QUGACYD6QUGALkB1gUPAF0GAAAGAOYBygQGAFACygQGADECygQG
+AA0DygQGAI0CygQGAKYCygQGAP0BygQGABgCbQMKANUC2gAGAFkELQAGAAIFnAQOAPwCsQQGAAkH
+aQQOAMECsQQKAFwF2gASAE0F2gAKABMF2gAKAGUH2gAGAJwB1gUGAG0FCQYGAPYEnAQWAGwBkAMW
+AM0BkAMWACgBhwQGAIEB6QUWAD0HEAcGAFMELQAGAPsAaQQGALYAaQQOAH0FsQQGAJIHaQQGACsF
+aQQGANwEaQQGAA8AaQQGAOoHygQAAAAAFQAAAAAAAQABAAEAEAB8BAAAEAABAAEAAQAQADsFAABN
+AAIABQABABAARwcAAFkAAgAVAAEAEADTBgAARQAFABoAAQAQAJsGAABFAAYAGwAAABAAEAZsBkUA
+BwAcAAABEADKBmwGcQAJACAAAgAQAJoHAABFAAoAIwACABAANwAAAEUACwAkACEARgSdAAYA0wag
+AAYAmwakAAYAOwWoAAEAVQesAAEAVQesABEAcASwABEAGAG0ABEAnQC4AAYANge8AAYAAQCdAAYA
+0wedAAYAQAGdAAYAHgCdAAYARQGdAFAgAAAAAMYARAMGAAEAWCAAAAAAxgBPAwYAAQBgIAAAAADG
+APUGBgABAGYhAAAAAIYYvwUGAAEAeSEAAAAAhhi/BVgAAQCEIQAAAACGCFIBEAAEAI4hAAAAAIYI
+/APBAAUApSEAAAAAhghVABAABgCvIQAAAACGCN4DwQAHAMYhAAAAAIYI1wcQAAgA0CEAAAAAhggk
+BMEACQDnIQAAAACGCAYAEAAKAPEhAAAAAIYIzgPBAAsACCIAAAAAhghjARAADAASIgAAAACGCBQE
+wQANACkiAAAAAIYIgAABAA4AOCIAAAAAhgjsA8EADwBPIgAAAACGAN8HBgAQAFciAAAAAIYAGwcG
+ABAAXyIAAAAAhgAeB2gAEABnIgAAAACGGL8FBgAQAIciAAAAAMYB5wYGABAAiSIAAAAAgQCJAAYA
+EACoIgAAAADGAMcHxgAQAIciAAAAAMYB9QYGABQA/SIAAAAAhhi/BdIAFAAMIwAAAACGGL8F0gAV
+ABsjAAAAAIMYvwUGABYAIyMAAAAAkwhpBdgAFgBPIwAAAACTCAAB3QAWAFYjAAAAAJMIDAHiABYA
+XiMAAAAAlggqB+gAFwBlIwAAAACGGL8FBgAXAG0jAAAAAJEYxQXtABcAGyMAAAAAhhi/BQYAFwAb
+IwAAAACGGL8FBgAXAAAAAQBiBQAAAgClBgAAAwAhBQAAAQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAA
+AQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAAAQBbAwAAAQDtBgAAAgDM
+BQAAAwDfBgAABAAhBQAAAQBrBwAAAQBrBwAAAQBbAwkAvwUBABEAvwUGABkAvwUKACkAvwUQADEA
+vwUQADkAvwUQAEEAvwUQAEkAvwUQAFEAvwUQAFkAvwUQAGEAvwUQAGkAvwUGAIEAvwUQAJEAvwUQ
+ALkAvwUGANkAvwUVAOkAvwUGALEARAMGALEATwMGAPEAvwUGAPEAPwApAPkAvwUvAAEByAA1ABEB
+vwU+ABEBYQNFAHkAvwUGAHkAiwUQAHkApgUQABkBrQBLABkBhwNTAJkAvwVYAJkAYARiAJkAMwQB
+ACkBvwUQAJkA3wcGAJkAGwcGAJkAHgdoALEAvwUGALEAIQBwALEAuQZ3AIkAvwUGAAEB5gd9AMEA
+vwWDAOEAvwUGAC4ACwAMAS4AEwAVAS4AGwA0AS4AIwA9AS4AKwBmAS4AMwBmAS4AOwBmAS4AQwA9
+AS4ASwBsAS4AUwBmAS4AWwCDAUMAYwDNAeMAewDNASEBiwDNASMBawAXAkEBcwDSAWEBcwDgAYEB
+cwDqAaEBcwDzAakBgwA0AcEBcwD9AckBgwA0AeEBcwAFAhsAbAADAAEABwANAAgADwAAAFYB8QAA
+AAAE9QAAAFkA8QAAAOID9QAAANsH8QAAACgE9QAAAAoA8QAAANID9QAAAGcB8QAAABgE9QAAAIQA
++QAAAPAD9QAAAG0F/QAAACABAgEAAC4HBwEBAAYAAwABAAcABQABAAgABwABAAkACQABAAoACwAB
+AAsADQABAAwADwABAA0AEQABAA4AEwABAA8AFQABABAAFwABABEAGQACAB0AGwACAB4AHQABAB8A
+HQACACAAHwAEgAAAAQAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAAAAAAAiwBMAAAAAAAPAAAAAAAA
+AAAAAACUAHUHAAAAAAQAAAAAAAAAAAAAAIsAOwQAAAAADwAAAAAAAAAAAAAAlACmBwAAAAAEAAAA
+AAAAAAAAAACLAGkEAAAAAAAAAAABAAAAGgYAAAkAAgAKAAIAAAAAAABSMDMwAHNldF9yMDMwAElu
+dDMyADxNb2R1bGU+AENDAEdldE91dHB1dElEAFN5c3RlbS5JTwBYTUxEYXRhAERvd25sb2FkRGF0
+YQBtc2NvcmxpYgBzZXRfY2MAU0NfNDE2OGM4M2IzMDg3NDFlNGFkZTJjYWNlODgzNDVhZWMAc2V0
+X2ZvcmMATWFya091dHB1dHNGaW5pc2hlZABkZWZhdWx0SW5zdGFuY2UAVG9Eb3VibGUAUnVudGlt
+ZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUGlw
+ZWxpbmUAVHlwZQBnZXRfQ3VsdHVyZQBzZXRfQ3VsdHVyZQByZXNvdXJjZUN1bHR1cmUAQXBwbGlj
+YXRpb25TZXR0aW5nc0Jhc2UAUmF0ZQBFeGNoYW5nZWRhdGUAc2V0X2V4Y2hhbmdlZGF0ZQBzZXRf
+cmF0ZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1
+Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3Nh
+YmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRy
+aWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJp
+YnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNB
+dHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmli
+dXRlAFhtbEVsZW1lbnRBdHRyaWJ1dGUAU1NJU1NjcmlwdENvbXBvbmVudEVudHJ5UG9pbnRBdHRy
+aWJ1dGUAWG1sUm9vdEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNv
+bXBhdGliaWxpdHlBdHRyaWJ1dGUAUHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQB2YWx1ZQBEZXNlcmlh
+bGl6ZQBTeXN0ZW0uUnVudGltZS5WZXJzaW9uaW5nAFRvU3RyaW5nAFN5c3RlbS5Db21wb25lbnRN
+b2RlbABTQ180MTY4YzgzYjMwODc0MWU0YWRlMmNhY2U4ODM0NWFlYy5kbGwAc2V0X3IwMzBfSXNO
+dWxsAHNldF9jY19Jc051bGwAc2V0X2ZvcmNfSXNOdWxsAHNldF9leGNoYW5nZWRhdGVfSXNOdWxs
+AHNldF9yYXRlX0lzTnVsbABzZXRfdHh0X0lzTnVsbABTZXROdWxsAFN5c3RlbS5YbWwAX2Rvd25s
+b2FkVXJsAE1lbW9yeVN0cmVhbQBzZXRfSXRlbQBTeXN0ZW0AcmVzb3VyY2VNYW4AU2NyaXB0TWFp
+bgBTeXN0ZW0uQ29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uWG1sLlNl
+cmlhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24ASW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbgBD
+dWx0dXJlSW5mbwBOdW1iZXJGb3JtYXRJbmZvAE91dHB1dE5hbWVNYXAAT3V0cHV0TWFwAElGb3Jt
+YXRQcm92aWRlcgDQktGL0YXQvtC0MEJ1ZmZlcgBQaXBlbGluZUJ1ZmZlcgBTY3JpcHRCdWZmZXIA
+Z2V0X1Jlc291cmNlTWFuYWdlcgBYbWxTZXJpYWxpemVyAHNldF9OdW1iZXJEZWNpbWFsU2VwYXJh
+dG9yAHNldF9OdW1iZXJHcm91cFNlcGFyYXRvcgAuY3RvcgAuY2N0b3IAT3V0cHV0SURzAFN5c3Rl
+bS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNv
+dXJjZXMAU0NfNDE2OGM4M2IzMDg3NDFlNGFkZTJjYWNlODgzNDVhZWMuUHJvcGVydGllcy5SZXNv
+dXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNDXzQxNjhjODNiMzA4NzQxZTRhZGUyY2Fj
+ZTg4MzQ1YWVjLlByb3BlcnRpZXMAVmFyaWFibGVzAEJ1ZmZlckNvbHVtbkluZGV4ZXMAR2V0Q29s
+dW1uSW5kZXhlcwBTZXR0aW5ncwBDb25uZWN0aW9ucwBCdWZmZXJzAEZpbmlzaE91dHB1dHMAQ3Jl
+YXRlTmV3T3V0cHV0Um93cwBPYmplY3QAU3lzdGVtLk5ldABTZXRFbmRPZlJvd3NldABnZXRfRGVm
+YXVsdAByZXp1bHQAV2ViQ2xpZW50AFVzZXJDb21wb25lbnQAUGFyZW50Q29tcG9uZW50AFNjcmlw
+dENvbXBvbmVudABNaWNyb3NvZnQuU3FsU2VydmVyLlR4U2NyaXB0AENvbnZlcnQAWE1MRGF0YUxp
+c3QATWljcm9zb2Z0LlNxbFNlcnZlci5QaXBlbGluZUhvc3QAUHJpbWVPdXRwdXQAVHh0AHNldF90
+eHQAQWRkUm93AGdldF9Bc3NlbWJseQAAAAMuAAADLAAAgK1oAHQAdABwAHMAOgAvAC8AYgBhAG4A
+awAuAGcAbwB2AC4AdQBhAC8ATgBCAFUAUwB0AGEAdABTAGUAcgB2AGkAYwBlAC8AdgAxAC8AcwB0
+AGEAdABkAGkAcgBlAGMAdABvAHIAeQAvAGUAeABjAGgAYQBuAGcAZQA/AHYAYQBsAGMAbwBkAGUA
+PQBFAFUAUgAmAGQAYQB0AGUAPQAyADAAMgAxADEAMgAzADAAAICrIQQyBD4EOQRBBEIEMgQ+BCAA
+SQBzAE4AdQBsAGwAIAA9BDUEIAA8BD4ENgQ1BEIEIAA4BDwENQRCBEwEIAA3BD0EMARHBDUEPQQ4
+BDUEIABGAEEATABTAEUALgAgAB8EQAQ4BEEEMgQ+BDkEQgQ1BCAAQQRCBD4EOwQxBEYEQwQgADoE
+MAQ6BD4ENQQtADsEOAQxBD4EIAA3BD0EMARHBDUEPQQ4BDUELgABDxIESwRFBD4ENAQgADAAAXFT
+AEMAXwA0ADEANgA4AGMAOAAzAGIAMwAwADgANwA0ADEAZQA0AGEAZABlADIAYwBhAGMAZQA4ADgA
+MwA0ADUAYQBlAGMALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAADm
+9urjhTW6SYlyO/HUuSBEAAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFpDQcGEjkSPQ0dEigIEigF
+IAEdBQ4FIAEBHQUIAAESgIERgIUGIAEBEoCBBSABHBI5BwACDQ4SgJEEAAEODQkgAwESUR0IElUF
+IAIBCBwDIAACAwcBCAYAAggSVQ4FIAEdCAgFIAASgJ0HIAIBDhKAnQi3elxWGTTgiQiJhF3NgIDM
+kQIGDgMGEhQDBhIYAwYSDAMGElkDBhJhAwYSZQMGEiAEBh0SKAQgAQECCyAEAQgdCB0SURJVBSAB
+ARJZBAAAEmEEAAASZQUAAQESZQQAABIgAwAAAQMoAA4DKAACAygACAQIABJhBAgAEmUECAASIAgB
+AAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU0NfNDE2
+OGM4M2IzMDg3NDFlNGFkZTJjYWNlODgzNDVhZWMAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAy
+MQAASQEAGi5ORVRGcmFtZXdvcmssVmVyc2lvbj12NC43AQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFt
+ZRIuTkVUIEZyYW1ld29yayA0LjcEAQAAAA0BAAhjdXJyZW5jeQAACQEABHIwMzAAAAgBAAN0eHQA
+AAkBAARyYXRlAAAHAQACY2MAABEBAAxleGNoYW5nZWRhdGUAAA0BAAhleGNoYW5nZQAAAAAAtAAA
+AM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwg
+VmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2
+MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQ
+QURQQURQtAAAAHg4AAAAAAAAAAAAAJI4AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEOAAAAAAA
+AAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAA
+AFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAA
+vQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
+AFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAA
+AAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAAMAAw
+ADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkA
+TgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABT
+AEMAXwA0ADEANgA4AGMAOAAzAGIAMwAwADgANwA0ADEAZQA0AGEAZABlADIAYwBhAGMAZQA4ADgA
+MwA0ADUAYQBlAGMAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4AMAAu
+ADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADQAMQA2ADgAYwA4ADMA
+YgAzADAAOAA3ADQAMQBlADQAYQBkAGUAMgBjAGEAYwBlADgAOAAzADQANQBhAGUAYwAuAGQAbABs
+AAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBoAHQA
+IABAACAAIAAyADAAMgAxAAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMAAAAA
+AAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8ANAAxADYA
+OABjADgAMwBiADMAMAA4ADcANAAxAGUANABhAGQAZQAyAGMAYQBjAGUAOAA4ADMANAA1AGEAZQBj
+AC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfADQAMQA2ADgA
+YwA4ADMAYgAzADAAOAA3ADQAMQBlADQAYQBkAGUAMgBjAGEAYwBlADgAOAAzADQANQBhAGUAYwAA
+ADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4AAgA
+AQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAApDgAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Указывает проект средств Microsoft Visual Studio для приложений. Имена проектов должны быть уникальными в пределах пакета."
+                  name="VSTAProjectName"
+                  typeConverter="NOTBROWSABLE">SC_4168c83b308741e4ade2cace88345aec</property>
+                <property
+                  dataType="System.String"
+                  description="Указывает язык программирования, используемый скриптом."
+                  name="ScriptLanguage"
+                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                <property
+                  dataType="System.String"
+                  description="Указывает переменные, доступные только для чтения (через запятую)."
+                  name="ReadOnlyVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Указывает переменные, доступные для чтения и записи (через запятую)."
+                  name="ReadWriteVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Список имеющихся в скрипте точек останова."
+                  isArray="true"
+                  name="BreakpointCollection"
+                  typeConverter="NOTBROWSABLE">
+                  <arrayElements
+                    arrayElementCount="0" />
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Контрольная сумма для сопоставления метаданных компонента со скомпилированным кодом."
+                  name="MetadataChecksum140"
+                  typeConverter="NOTBROWSABLE">FE</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+              </properties>
+              <outputs>
+                <output
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0]"
+                  hasSideEffects="true"
+                  name="Выход 0">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]"
+                      name="exchangedate" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]"
+                      name="cc" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[txt]"
+                      name="txt" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[r030]"
+                      name="r030" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]"
+                      name="rate" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[forc]"
+                      dataType="i4"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[forc]"
+                      name="forc" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;"
+              componentClassID="Microsoft.SQLServerDestination"
+              contactInfo="Назначение &quot;SQL Server&quot;;Корпорация Майкрософт. Microsoft SQL Server. (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support;5"
+              description="Назначение &quot;SQL Server&quot;"
+              name="Назначение &quot;SQL Server&quot;"
+              version="5">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Указывает кодовую страницу столбца, используемую, когда недоступны сведения о кодовой странице из источника данных."
+                  name="DefaultCodePage">1251</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Вызывает безусловное использование значение свойства DefaultCodePage при описании символьных данных."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.String"
+                  description="Имя объекта базы данных для копирования данных."
+                  expressionType="Notify"
+                  name="BulkInsertTableName">[dbo].[KURS_SSIS]</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Указывает, что в ходе операции копирования данных в целевом объекте проверяются все ограничения. Соответствует параметру CHECK_CONSTRAINTS массовой вставки."
+                  name="BulkInsertCheckConstraints">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Указывает номер первой строки для копирования. Соответствует параметру FIRSTROW массовой вставки."
+                  expressionType="Notify"
+                  name="BulkInsertFirstRow">-1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Указывает, что любые триггеры вставки, определенные на целевом объекте, будут выполняться в ходе копирования данных. Соответствует параметру FIRE_TRIGGERS массовой вставки."
+                  name="BulkInsertFireTriggers">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Указывает, должны ли значения в столбцах идентификаторов копироваться в назначение. Значение false указывает, что значения в столбцах идентификаторов будут созданы автоматически в месте назначения. Соответствует параметру KEEPIDENTITY массовой вставки."
+                  name="BulkInsertKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Указывает, будут ли в назначение копироваться значения NULL для столбцов, содержащих их. Значение false показывает, что если столбец имеет значение NULL, то в назначение будет вставлено его значение по умолчанию. Применяется только в случае, если включена быстрая загрузка."
+                  name="BulkInsertKeepNulls">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Указывает номер последней строки для копирования. Соответствует параметру LASTROW массовой вставки."
+                  expressionType="Notify"
+                  name="BulkInsertLastRow">-1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Указывает максимальное число синтаксических ошибок и ошибок компиляции, которые могут произойти до отмены операции копирования данных. Каждая строка, которую не удается скопировать, пропускается и считается за одну ошибку. Соответствует параметру MAXERRORS массовой вставки."
+                  name="BulkInsertMaxErrors">-1</property>
+                <property
+                  dataType="System.String"
+                  description="Указывает порядок сортировки данных для копирования. Соответствует параметру ORDER массовой вставки."
+                  expressionType="Notify"
+                  name="BulkInsertOrder"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Указывает, что в течение операции копирования данных применяется блокировка на уровне таблиц. Соответствует параметру TABLOCK массовой вставки."
+                  name="BulkInsertTablock">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Задает интервал времени (в секундах), в течение которого адаптер загрузки данных SQL будет находиться с режиме ожидания перед завершением работы в случае, когда данные для вставки недоступны. Значение времени ожидания 0 означает, что адаптер загрузки данных SQL не будет завершать работу из-за истечения времени ожидания."
+                  expressionType="Notify"
+                  name="Timeout">30</property>
+                <property
+                  dataType="System.Int32"
+                  description="Указывает на выполнение фиксации в процеcсе вставки данных. Значение 0 указывает, что по окончание вставки данных будет выполнена одна фиксация."
+                  name="MaxInsertCommitSize">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[MSSQL-DatabaseTestDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[MSSQL-DatabaseTestDB]"
+                  description="Соединение OLE DB среды выполнения, используемое для доступа к базе данных."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;]"
+                  hasSideEffects="true"
+                  name="Вход назначения &quot;SQL Server&quot;">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[SUBSYSTEM_CODE]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="SUBSYSTEM_CODE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SYBSYSTEM_CODE]"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[KURS_DATE]"
+                      cachedDataType="dbDate"
+                      cachedName="KURS_DATE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[KURS_DATE]"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[KURS_DATE]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[CURR_CODE]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="CURR_CODE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[CURRENCY_CODE]"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[CURR_CODE]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[forc]"
+                      cachedDataType="i4"
+                      cachedName="forc"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[FORC]"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[forc]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[Копия rate]"
+                      cachedDataType="cy"
+                      cachedName="Копия rate"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[RATE]"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные преобразования данных].Columns[Копия rate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID]"
+                      dataType="i4"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID_EXT]"
+                      dataType="i4"
+                      name="ID_EXT" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SYBSYSTEM_CODE]"
+                      dataType="wstr"
+                      length="255"
+                      name="SYBSYSTEM_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[CURRENCY_CODE]"
+                      dataType="wstr"
+                      length="3"
+                      name="CURRENCY_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[KURS_DATE]"
+                      dataType="dbDate"
+                      name="KURS_DATE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[RATE]"
+                      dataType="cy"
+                      name="RATE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[FORC]"
+                      dataType="i4"
+                      name="FORC" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SYS_DATE]"
+                      dataType="dbTimeStamp2"
+                      name="SYS_DATE"
+                      scale="7" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[EVENT_CODE]"
+                      dataType="wstr"
+                      length="1"
+                      name="EVENT_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_CODE]"
+                      dataType="i4"
+                      name="ERROR_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ERROR_MESSAGE]"
+                      dataType="nText"
+                      name="ERROR_MESSAGE" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[HASH_COLIMN]"
+                      dataType="bytes"
+                      length="64"
+                      name="HASH_COLIMN" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Преобразование данных;Корпорация Майкрософт. Microsoft SQL Server. (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support;0"
+              description="Преобразование данных"
+              name="Преобразование данных"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Inputs[Входные данные преобразования данных]"
+                  name="Входные данные преобразования данных">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Inputs[Входные данные преобразования данных].Columns[RATE]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="RATE"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные преобразования данных]"
+                  exclusionGroup="1"
+                  name="Выходные данные преобразования данных"
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Inputs[Входные данные преобразования данных]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные преобразования данных].Columns[Копия rate]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Преобразование"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные преобразования данных].Columns[Копия rate]"
+                      name="Копия rate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Указывает входной столбец, служащий источником данных для преобразования."
+                          name="SourceInputColumnLineageID">#{Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Указывает, используются ли в столбце более производительные, не зависящие от локалей процедуры синтаксического анализа."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные ошибок преобразования данных]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Выходные данные ошибок преобразования данных"
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Inputs[Входные данные преобразования данных]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные ошибок преобразования данных].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные ошибок преобразования данных].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные ошибок преобразования данных].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные ошибок преобразования данных].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Производный столбец;Корпорация Майкрософт. Microsoft SQL Server. (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support;0"
+              description="Создает новые значения столбцов путем применения выражений к входным столбцам преобразования. Создает новые столбцы или перезаписывает существующие. Пример: объединение значений столбцов &quot;first name&quot; и &quot;last name&quot; и создание столбца &quot;full name&quot;."
+              name="Производный столбец"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца]"
+                  description="Ввод преобразования &quot;Производный столбец&quot;"
+                  name="Вход производного столбца">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца].Columns[rate]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="rate"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца].Columns[cc]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="cc"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца].Columns[exchangedate]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="exchangedate"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца]"
+                  description="Выход по умолчанию преобразования &quot;Производный столбец&quot;"
+                  exclusionGroup="1"
+                  name="Выход производного столбца"
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Вычисление"
+                      errorRowDisposition="FailComponent"
+                      length="7"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
+                      name="SUBSYSTEM_CODE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Выражение производного столбца"
+                          name="Expression">"xml_web"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Понятное выражение производного столбца"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"xml_web"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[KURS_DATE]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Вычисление"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[KURS_DATE]"
+                      name="KURS_DATE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Выражение производного столбца"
+                          name="Expression">(DT_DBDATE)([SUBSTRING](#{Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]},7,4) + "-" + [SUBSTRING](#{Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]},4,2) + "-" + [SUBSTRING](#{Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[exchangedate]},1,2))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Понятное выражение производного столбца"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DBDATE)(SUBSTRING(exchangedate,7,4) + "-" + SUBSTRING(exchangedate,4,2) + "-" + SUBSTRING(exchangedate,1,2))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Вычисление"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[RATE]"
+                      name="RATE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Выражение производного столбца"
+                          name="Expression">[REPLACE](#{Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[rate]},".",",")</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Понятное выражение производного столбца"
+                          expressionType="Notify"
+                          name="FriendlyExpression">REPLACE(rate,".",",")</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[CURR_CODE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Вычисление"
+                      errorRowDisposition="FailComponent"
+                      length="3"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца].Columns[CURR_CODE]"
+                      name="CURR_CODE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Выражение производного столбца"
+                          name="Expression">[SUBSTRING](#{Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0].Columns[cc]},1,3)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Понятное выражение производного столбца"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(cc,1,3)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Вывод ошибок производного столбца]"
+                  description="Вывод ошибок преобразования &quot;Производный столбец&quot;"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Вывод ошибок производного столбца"
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выход 0]"
+              endId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Inputs[Вход производного столбца]"
+              name="Выход 0"
+              startId="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов.Outputs[Выход 0]" />
+            <path
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выход производного столбца]"
+              endId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Inputs[Входные данные преобразования данных]"
+              name="Выход производного столбца"
+              startId="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец.Outputs[Выход производного столбца]" />
+            <path
+              refId="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выходные данные преобразования данных]"
+              endId="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;]"
+              name="Выходные данные преобразования данных"
+              startId="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных.Outputs[Выходные данные преобразования данных]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -7111,11 +8655,11 @@ from curs</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Ограничение 7]"
       DTS:CreationName=""
-      DTS:DTSID="{8F80E8BF-E198-4FDD-BDE8-336BA48796D3}"
+      DTS:DTSID="{7F4BFFCA-AA06-4E2C-9B5D-EF30B029A8E7}"
       DTS:From="Package\Задача потока данных KURS_SSIS - JSON WEB"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Ограничение 7"
-      DTS:To="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка" />
+      DTS:To="Package\Задача потока данных KURS_SSIS - XML WEB" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Ограничение 8]"
       DTS:CreationName=""
@@ -7124,6 +8668,14 @@ from curs</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Ограничение 8"
       DTS:To="Package\Задача потока данных KURS_SSIS - JSON WEB" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Ограничение 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{D423D90F-F83B-49B5-9D01-226A9450A660}"
+      DTS:From="Package\Задача потока данных KURS_SSIS - XML WEB"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Ограничение 9"
+      DTS:To="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--В данном разделе CDATA содержатся сведения о макете пакета. В данном разделе содержатся сведения о координатах (x,y), ширине и высоте.-->
@@ -7150,6 +8702,10 @@ from curs</property>
           Id="Package\Задача потока данных KURS_SSIS - CSV"
           TopLeft="365,159" />
         <NodeLayout
+          Size="282,42"
+          Id="Package\Задача потока данных KURS_SSIS - JSON"
+          TopLeft="689,160" />
+        <NodeLayout
           Size="307,42"
           Id="Package\Задача потока данных KURS_SSIS - JSON WEB"
           TopLeft="679,246" />
@@ -7173,6 +8729,10 @@ from curs</property>
           Size="277,42"
           Id="Package\Задача потока данных KURS_SSIS - XML"
           TopLeft="41,158" />
+        <NodeLayout
+          Size="302,42"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB"
+          TopLeft="340,248" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение]"
           TopLeft="538.5,33">
@@ -7242,6 +8802,28 @@ from curs</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Ограничение 2]"
+          TopLeft="707,114.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-24,0"
+              Start="0,0"
+              End="-16.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-16.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 3]"
           TopLeft="351,54.5">
           <EdgeLayout.Curve>
@@ -7286,28 +8868,6 @@ from curs</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Ограничение 2]"
-          TopLeft="707,114.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-24,0"
-              Start="0,0"
-              End="-16.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-16.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 5]"
           TopLeft="539.5,135">
           <EdgeLayout.Curve>
@@ -7342,44 +8902,6 @@ from curs</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Ограничение 7]"
-          TopLeft="832.5,288">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-635.5,168"
-              Start="0,0"
-              End="-635.5,160.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,80" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,80"
-                    Point2="0,84"
-                    Point3="-4,84" />
-                  <mssgle:LineSegment
-                    End="-631.5,84" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-631.5,84"
-                    Point2="-635.5,84"
-                    Point3="-635.5,88" />
-                  <mssgle:LineSegment
-                    End="-635.5,160.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="282,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON"
-          TopLeft="689,160" />
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 6]"
           TopLeft="641,180.5">
           <EdgeLayout.Curve>
@@ -7402,6 +8924,28 @@ from curs</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Ограничение 7]"
+          TopLeft="679,268">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-37,0"
+              Start="0,0"
+              End="-29.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-29.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 8]"
           TopLeft="831.25,202">
           <EdgeLayout.Curve>
@@ -7415,6 +8959,40 @@ from curs</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Ограничение 9]"
+          TopLeft="491,290">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-294,166"
+              Start="0,0"
+              End="-294,158.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,79" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,79"
+                    Point2="0,83"
+                    Point3="-4,83" />
+                  <mssgle:LineSegment
+                    End="-290,83" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-290,83"
+                    Point2="-294,83"
+                    Point3="-294,87" />
+                  <mssgle:LineSegment
+                    End="-294,158.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7531,24 +9109,76 @@ from curs</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Задача потока данных KURS_SSIS - JSON WEB">
+    design-time-name="Package\Задача потока данных KURS_SSIS - JSON">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="202,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Назначение &quot;SQL Server&quot;"
+          Id="Package\Задача потока данных KURS_SSIS - JSON\Назначение &quot;SQL Server&quot;"
           TopLeft="86,279" />
         <NodeLayout
+          Size="200,42"
+          Id="Package\Задача потока данных KURS_SSIS - JSON\Преобразование данных"
+          TopLeft="94,185" />
+        <NodeLayout
           Size="180,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов"
+          Id="Package\Задача потока данных KURS_SSIS - JSON\Компонент скриптов"
           TopLeft="100,28" />
         <NodeLayout
           Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец"
+          Id="Package\Задача потока данных KURS_SSIS - JSON\Производный столбец"
           TopLeft="97,109" />
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - JSON WEB.Paths[Выход 0]"
+          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выходные данные преобразования данных]"
+          TopLeft="190.5,227">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выход производного столбца]"
+          TopLeft="192.5,151">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выход 0]"
           TopLeft="190.5,70">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7566,13 +9196,53 @@ from curs</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Задача потока данных KURS_SSIS - JSON WEB">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Назначение &quot;SQL Server&quot;"
+          TopLeft="86,279" />
         <NodeLayout
           Size="200,42"
           Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Преобразование данных"
           TopLeft="94,185" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Производный столбец"
+          TopLeft="97,109" />
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - JSON WEB.Paths[Выходные данные преобразования данных]"
+          TopLeft="190.5,227">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Задача потока данных KURS_SSIS - JSON WEB.Paths[Выход производного столбца]"
           TopLeft="192.5,151">
@@ -7595,20 +9265,24 @@ from curs</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Задача потока данных KURS_SSIS - JSON WEB\Компонент скриптов"
+          TopLeft="102,40" />
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - JSON WEB.Paths[Выходные данные преобразования данных]"
-          TopLeft="190.5,227">
+          Id="Package\Задача потока данных KURS_SSIS - JSON WEB.Paths[Выход 0]"
+          TopLeft="191.5,82">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52"
+              EndConnector="0,27"
               Start="0,0"
-              End="0,44.5">
+              End="0,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.5" />
+                    End="0,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8114,50 +9788,24 @@ from curs</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Задача потока данных KURS_SSIS - JSON">
+    design-time-name="Package\Задача потока данных KURS_SSIS - XML WEB">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="180,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON\Компонент скриптов"
-          TopLeft="100,28" />
-        <NodeLayout
           Size="202,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON\Назначение &quot;SQL Server&quot;"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB\Назначение &quot;SQL Server&quot;"
           TopLeft="86,279" />
         <NodeLayout
           Size="200,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON\Преобразование данных"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB\Преобразование данных"
           TopLeft="94,185" />
         <NodeLayout
           Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - JSON\Производный столбец"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB\Производный столбец"
           TopLeft="97,109" />
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выход 0]"
-          TopLeft="190.5,70">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39"
-              Start="0,0"
-              End="0,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выходные данные преобразования данных]"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выходные данные преобразования данных]"
           TopLeft="190.5,227">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -8179,7 +9827,7 @@ from curs</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - JSON.Paths[Выход производного столбца]"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выход производного столбца]"
           TopLeft="192.5,151">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -8192,6 +9840,32 @@ from curs</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB\Компонент скриптов"
+          TopLeft="106,32" />
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - XML WEB.Paths[Выход 0]"
+          TopLeft="193.5,74">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35"
+              Start="0,0"
+              End="0,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
