@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="123"
-  DTS:VersionGUID="{A5C9026B-D9A6-406F-AD1D-1B2F52D251DC}">
+  DTS:VersionBuild="131"
+  DTS:VersionGUID="{5207BDCC-DD88-43D0-923E-F55DD81C8691}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -74,7 +74,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-PNF3PJH;Initial Catalog=DatabaseTestDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=DatabaseTestDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -86,17 +86,17 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-PNF3PJH;Initial Catalog=DatabaseTestDBExport;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=DatabaseTestDBExport;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[MSSQL-DESKTOP-PNF3PJH]"
+      DTS:refId="Package.ConnectionManagers[MSSQL-FOR-T-SQL]"
       DTS:CreationName="ADO.NET:SQL"
       DTS:DTSID="{7AF2063C-4F25-4BAF-8F50-242CD15A88DA}"
-      DTS:ObjectName="MSSQL-DESKTOP-PNF3PJH">
+      DTS:ObjectName="MSSQL-FOR-T-SQL">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-PNF3PJH;Integrated Security=SSPI;Connect Timeout=30;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=DatabaseTestDBExport;Integrated Security=True;Connect Timeout=30;Application Name=SSIS-Package-{7AF2063C-4F25-4BAF-8F50-242CD15A88DA}MSSQL-DESKTOP-PNF3PJH;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -109,12 +109,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={MySQL ODBC 8.0 ANSI Driver};port=3306;found_rows=1;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="WFQdniFcYNs="
-            IV="D/MGamWpF7TyL9EsyjGvRg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="bWleX+r11LM="
+            IV="G1NkYcIay1LUp8xtk9CT1g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>D/MGamWpF7TyL9EsyjGvRjrxvM3z4BoXc0Stm2iF1vp450lnFHN2k0IB51LC4sfJzi29AKDq79LdDt0FNkTI630zBIF3x4POp03UFgOx8OnaspZo++kOGl5cDKbGOJa5PlAsn5XeUCXnY19nMqjM1iEq5w9nWAwku93Da2met/I=</CipherValue>
+              <CipherValue>G1NkYcIay1LUp8xtk9CT1nHLUOBFKghXQOGNKkRgNxaPu8oJa98FaWqMeMcrYVcIFpC4NwsUOyf7ra5GeddV32V1pAEH9IIvfe6SZvtHHJwJO3Day45S9DebaYYvIV65mYCSjKA9jTIcm0P8v7cdNTzGs66CcQqJ0sI8cQ/DZ4A=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -132,12 +132,12 @@
           DTS:ConnectionString="Data Source=XE;User ID=TEST_USER;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="DzwUwcfm+gU="
-            IV="Iqsf38GQCckcCjrvzo5ARw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="vJb8i54OOqQ="
+            IV="J1EyWZfhIUXPM/J7b5dF8w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Iqsf38GQCckcCjrvzo5ARz53E5bFePcSLlz2X4wWwM5Kbrm5NOE/8KeGZXUw1aRUWpxpYzXK/aQFxPw4iuUMr6LHS4zr18elD/a+23X/s+YsKNJHfBeJu1CW2OQOxx7XmIaEn8wlkM6EUFOcVv2w8iv7eZLfxqSxrrWCLTjB/IYfKZHos4oD9xc3JNgQbqit</CipherValue>
+              <CipherValue>J1EyWZfhIUXPM/J7b5dF829JkX2fDsqfeQnjFbWNh0MhenP7ZbnAdkwiBGfR2LU4vGqv5yZ3kvyqxf+qav5WnIVf3H1o71sDkH7ljNWv412jEAwqz1OoKHtBmVbop253M9LzcdzWnSGqsUza8rfqI9qJv+zPtNNqKvc1RQO/Z7dfLDtdZVU/VGnEVjQmP8/R</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -153,12 +153,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={PostgreSQL ANSI};port=5432;database=test_database;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="IzuHFC+kMKs="
-            IV="SJViTJUCh7r+Cg7CmkT2Fw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="9ZEdUdrnMX0="
+            IV="KozAEs8FRKVjCCZiUt+K2Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>SJViTJUCh7r+Cg7CmkT2FyM1KurYHmD0nM4Ry0T9hWl0fYsOjQFd912i1F0KvqoF+ZZ1UTjT3nKg2EklO9vG+FIaVXekKm+54OyVjc7yaxLky5t/n8wF0L2Sq/uf+dbNEC2A3TH2HOiBLmwSA1eZd326+Z4adbTN2Y5gJ3ehJ2w=</CipherValue>
+              <CipherValue>KozAEs8FRKVjCCZiUt+K2ctAaiesZDEdIRhBAaDWGRyPbcVxZ7/5BQxpliOxRAc9NwjPC3psBxwmzsjkrZpRA4M/J8xc+RbjaCo1Zj2R0SPkwQU9b0TCYcEdXXl2LpeyvTOHfZULTn9gUbBzKvi0X28Jvd/d1YCiI56eboDhzqA=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -181,6 +181,7 @@
       DTS:refId="Package\Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
       DTS:CreationName="Microsoft.DbMaintenanceTSQLExecuteTask"
       DTS:Description="Задача &quot;Выполнение инструкции T-SQL&quot;"
+      DTS:DisableEventHandlers="True"
       DTS:DTSID="{656EEA67-0408-4BEB-8F7E-C4D4B0BE90FF}"
       DTS:ExecutableType="Microsoft.DbMaintenanceTSQLExecuteTask"
       DTS:LocaleID="-1"
@@ -1419,11 +1420,11 @@ from test_schemas.curs c</property>
                 <property
                   dataType="System.Boolean"
                   description="Указывает, должны ли значения в столбцах идентификаторов копироваться в назначение. Значение false указывает, что значения в столбцах идентификаторов будут созданы автоматически в месте назначения. Соответствует параметру KEEPIDENTITY массовой вставки."
-                  name="BulkInsertKeepIdentity">false</property>
+                  name="BulkInsertKeepIdentity">true</property>
                 <property
                   dataType="System.Boolean"
                   description="Указывает, будут ли в назначение копироваться значения NULL для столбцов, содержащих их. Значение false показывает, что если столбец имеет значение NULL, то в назначение будет вставлено его значение по умолчанию. Применяется только в случае, если включена быстрая загрузка."
-                  name="BulkInsertKeepNulls">false</property>
+                  name="BulkInsertKeepNulls">true</property>
                 <property
                   dataType="System.Int32"
                   description="Указывает номер последней строки для копирования. Соответствует параметру LASTROW массовой вставки."
@@ -9002,9 +9003,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="322,42"
+          Size="334,42"
           Id="Package\Задача &quot;Выполнение инструкции T-SQL&quot; - Чистка"
-          TopLeft="298,34" />
+          TopLeft="292,35" />
         <NodeLayout
           Size="324,42"
           Id="Package\Задача &quot;Выполнение инструкции T-SQL&quot; Загрузка"
@@ -9013,20 +9014,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Size="306,42"
           Id="Package\Задача потока данных KURS_SSIS - Databases"
           TopLeft="304,103" />
+        <NodeLayout
+          Size="278,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files"
+          TopLeft="319,185" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение]"
-          TopLeft="458,76">
+          TopLeft="458,77">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27"
+              EndConnector="0,26"
               Start="0,0"
-              End="0,19.5">
+              End="0,18.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.5" />
+                    End="0,18.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9035,10 +9040,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="278,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files"
-          TopLeft="319,185" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 1]"
           TopLeft="457.5,145">
@@ -9092,133 +9093,121 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец"
-          TopLeft="20,137" />
+          Size="211,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 3"
+          TopLeft="693,358" />
         <NodeLayout
           Size="209,42"
           Id="Package\Задача потока данных KURS_SSIS - Databases\Источник &quot;OLE DB&quot; MSSQL"
           TopLeft="8,46" />
         <NodeLayout
-          Size="202,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot;"
-          TopLeft="15,252" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца]"
-          TopLeft="115,179">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,73"
-              Start="0,0"
-              End="0,65.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,65.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход источника &quot;OLE DB&quot;]"
-          TopLeft="113.25,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,49"
-              Start="0,0"
-              End="0,41.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="210,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 4"
+          TopLeft="929,394" />
         <NodeLayout
           Size="200,42"
           Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных"
           TopLeft="235,138" />
+        <NodeLayout
+          Size="220,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник - ADO NET - SQLite"
+          TopLeft="937,46" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец"
+          TopLeft="20,137" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 3"
+          TopLeft="950,165" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 1"
+          TopLeft="471.5,141.5" />
+        <NodeLayout
+          Size="199,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник ODBC - MySQL"
+          TopLeft="697,46" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 1"
+          TopLeft="458,240" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 3"
+          TopLeft="937,265" />
+        <NodeLayout
+          Size="197,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 2"
+          TopLeft="705,150" />
+        <NodeLayout
+          Size="220,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник ODBC - PostgreSQL"
+          TopLeft="455,44" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 2"
+          TopLeft="693,252" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot;"
+          TopLeft="15,252" />
+        <NodeLayout
+          Size="211,42"
+          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 1"
+          TopLeft="229,251" />
         <NodeLayout
           Size="213,42"
           Id="Package\Задача потока данных KURS_SSIS - Databases\Источник &quot;OLE DB&quot; - Oracle"
           TopLeft="232,45" />
         <NodeLayout
           Size="211,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 1"
-          TopLeft="229,250" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных]"
-          TopLeft="334.75,180">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,70"
-              Start="0,0"
-              End="0,62.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,62.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход источника &quot;OLE DB&quot;1]"
-          TopLeft="336.75,87">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="209,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 1"
-          TopLeft="458,240" />
-        <NodeLayout
-          Size="211,42"
           Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 2"
           TopLeft="458,357" />
-        <NodeLayout
-          Size="220,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник ODBC - PostgreSQL"
-          TopLeft="455,44" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 1"
-          TopLeft="471.5,141.5" />
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных3]"
+          TopLeft="1035.5,307">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,87"
+              Start="0,0"
+              End="0,79.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,79.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных2]"
+          TopLeft="798,294">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,64"
+              Start="0,0"
+              End="0,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных1]"
           TopLeft="563,282">
@@ -9233,6 +9222,72 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,67.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных]"
+          TopLeft="334.75,180">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,71"
+              Start="0,0"
+              End="0,63.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца3]"
+          TopLeft="1040.5,207">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,58"
+              Start="0,0"
+              End="0,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца2]"
+          TopLeft="800.5,192">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9264,19 +9319,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Вывод источника ODBC]"
-          TopLeft="565.25,86">
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца]"
+          TopLeft="115,179">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,55.5"
+              EndConnector="0,73"
               Start="0,0"
-              End="0,48">
+              End="0,65.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48" />
+                    End="0,65.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9285,32 +9340,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="209,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 2"
-          TopLeft="693,252" />
-        <NodeLayout
-          Size="211,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 3"
-          TopLeft="693,358" />
-        <NodeLayout
-          Size="199,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник ODBC - MySQL"
-          TopLeft="697,46" />
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных2]"
-          TopLeft="798,294">
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход источника &quot;OLE DB&quot;1]"
+          TopLeft="336.75,87">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,64"
+              EndConnector="0,51"
               Start="0,0"
-              End="0,56.5">
+              End="0,43.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56.5" />
+                    End="0,43.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9319,10 +9362,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="197,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 2"
-          TopLeft="705,150" />
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход источника &quot;OLE DB&quot;]"
+          TopLeft="113.25,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Вывод источника ODBC1]"
           TopLeft="800,88">
@@ -9346,79 +9407,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца2]"
-          TopLeft="800.5,192">
+          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Вывод источника ODBC]"
+          TopLeft="565.25,86">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,55.5"
               Start="0,0"
-              End="0,52.5">
+              End="0,48">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Производный столбец 3"
-          TopLeft="950,165" />
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 4"
-          TopLeft="929,394" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Преобразование данных 3"
-          TopLeft="937,265" />
-        <NodeLayout
-          Size="220,42"
-          Id="Package\Задача потока данных KURS_SSIS - Databases\Источник - ADO NET - SQLite"
-          TopLeft="937,46" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выходные данные преобразования данных3]"
-          TopLeft="1035.5,307">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,87"
-              Start="0,0"
-              End="0,79.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,79.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Databases.Paths[Выход производного столбца3]"
-          TopLeft="1040.5,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,58"
-              Start="0,0"
-              End="0,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,50.5" />
+                    End="0,48" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9453,6 +9454,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 3">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Источник &quot;OLE DB&quot; MSSQL">
     <Properties>
       <Property>
@@ -9466,39 +9475,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot;">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Источник &quot;OLE DB&quot; - Oracle">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 3">
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 4">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9514,7 +9491,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 4">
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot;">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Источник &quot;OLE DB&quot; - Oracle">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Databases\Назначение &quot;SQL Server&quot; 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9525,93 +9526,75 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     design-time-name="Package\Задача потока данных KURS_SSIS - Files">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец"
-          TopLeft="33,107" />
+          Size="215,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 3"
+          TopLeft="704,287" />
         <NodeLayout
-          Size="202,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot;"
-          TopLeft="27,315" />
+          Size="216,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 4"
+          TopLeft="947,282" />
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - JSON"
+          TopLeft="475,34" />
         <NodeLayout
           Size="200,42"
           Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных"
           TopLeft="29,208" />
         <NodeLayout
-          Size="239,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Источник &quot;Неструкт файл&quot; - CSV"
-          TopLeft="10,36" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных]"
-          TopLeft="128.5,250">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65"
-              Start="0,0"
-              End="0,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца]"
-          TopLeft="128,149">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59"
-              Start="0,0"
-              End="0,51.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,51.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход источника &quot;Неструктурированный файл&quot;]"
-          TopLeft="128.25,78">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29"
-              Start="0,0"
-              End="0,21.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="236,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - XML WEB"
+          TopLeft="697,37" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Источник &quot;XML&quot;"
+          TopLeft="273,37" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 3"
+          TopLeft="712,193" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 2"
+          TopLeft="488,116" />
         <NodeLayout
           Size="188,42"
           Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 1"
           TopLeft="262,111" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 4"
+          TopLeft="958,112" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 4"
+          TopLeft="955,188" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 2"
+          TopLeft="485,192" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 3"
+          TopLeft="715,117" />
+        <NodeLayout
+          Size="241,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - JSON WEB"
+          TopLeft="936,40" />
+        <NodeLayout
+          Size="239,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Источник &quot;Неструкт файл&quot; - CSV"
+          TopLeft="10,36" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot;"
+          TopLeft="27,315" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец"
+          TopLeft="33,107" />
         <NodeLayout
           Size="211,42"
           Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 1"
@@ -9621,51 +9604,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 1"
           TopLeft="252,190" />
         <NodeLayout
-          Size="157,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Источник &quot;XML&quot;"
-          TopLeft="273,37" />
+          Size="212,42"
+          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 2"
+          TopLeft="477,286" />
         <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных1]"
-          TopLeft="355.75,232">
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход 0]"
+          TopLeft="582.5,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31"
+              EndConnector="0,40"
               Start="0,0"
-              End="0,23.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.5" />
+                    End="0,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца1]"
-          TopLeft="354,153">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37"
-              Start="0,0"
-              End="0,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9687,189 +9650,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="212,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 2"
-          TopLeft="477,286" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 2"
-          TopLeft="485,192" />
-        <NodeLayout
-          Size="216,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - JSON"
-          TopLeft="475,34" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 2"
-          TopLeft="488,116" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных2]"
-          TopLeft="584,234">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца2]"
-          TopLeft="583.5,158">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход 0]"
-          TopLeft="582.5,76">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="215,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 3"
-          TopLeft="704,287" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 3"
-          TopLeft="712,193" />
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - XML WEB"
-          TopLeft="697,37" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 3"
-          TopLeft="715,117" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных3]"
-          TopLeft="811.75,235">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца3]"
-          TopLeft="810.5,159">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход 01]"
-          TopLeft="812,79">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="216,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 4"
-          TopLeft="947,282" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Преобразование данных 4"
-          TopLeft="955,188" />
-        <NodeLayout
-          Size="241,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Компонент скриптов - JSON WEB"
-          TopLeft="936,40" />
-        <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS - Files\Производный столбец 4"
-          TopLeft="958,112" />
         <EdgeLayout
           Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных4]"
           TopLeft="1055,230">
@@ -9889,7 +9674,105 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных3]"
+          TopLeft="811.75,235">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных2]"
+          TopLeft="584,234">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных1]"
+          TopLeft="355.75,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выходные данные преобразования данных]"
+          TopLeft="128.5,250">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65"
+              Start="0,0"
+              End="0,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9911,7 +9794,129 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца3]"
+          TopLeft="810.5,159">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца2]"
+          TopLeft="583.5,158">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца1]"
+          TopLeft="354,153">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход производного столбца]"
+          TopLeft="128,149">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59"
+              Start="0,0"
+              End="0,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход источника &quot;Неструктурированный файл&quot;]"
+          TopLeft="128.25,78">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9933,12 +9938,54 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS - Files.Paths[Выход 01]"
+          TopLeft="812,79">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 3">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 4">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot;">
     <Properties>
@@ -9957,22 +10004,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 3">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Задача потока данных KURS_SSIS - Files\Назначение &quot;SQL Server&quot; 4">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
