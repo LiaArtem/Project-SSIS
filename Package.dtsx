@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="141"
-  DTS:VersionGUID="{13CC462B-D5E3-493D-83A6-F3DA6D17879E}">
+  DTS:VersionBuild="146"
+  DTS:VersionGUID="{AD679963-2772-498C-960F-34990CE2DA22}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,15 +26,15 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=dbserver-test-lia.database.windows.net;User ID=admin-dbserver;Initial Catalog=TestDB;Provider=SQLNCLI11.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=dbserver-test-lia.database.windows.net;User ID=admin-dbserver;Initial Catalog=TestDB;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="ycT/iEZS4Hc="
-            IV="aq99G31ynF8mLt5ZxPgLeQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="MVJzigmtAU8="
+            IV="G/MeTjURLiNcVfXnqyVasA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>aq99G31ynF8mLt5ZxPgLeb1jzy+u5Out8/ndCNUH1DVNjpGzYTI4xJnKRbY2Fu2DLfrnnDPwc121NftuZckhN4sbfTgRbwzPXcG9qFuo6tibFCwtloEnGBYNR8lVUnu2hpI0HgeqeEENsE9+uOLVCcwdPf4ak2R2/la6bm5Q45ITY/gIprn4lB1O+MeEfT0U</CipherValue>
+              <CipherValue>G/MeTjURLiNcVfXnqyVasHun2tp0f3KT9BbLU6/sT0KbJEphRq1cCoJKGQ1z9wthBIjWxX72BVas4/DPc/TZzi4YBCDHdSA/J/m9pP9tDiHlmLWhyMddK22EflyFuWv7bk4c44rFIlGCOm/IY8xK9OiAF1obsR0/3P6bpZx7oig8Al0b9FsTN2uZz2cwi5AGNSbhXike/+6JbROiudMhqQ==</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -132,12 +132,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={MySQL ODBC 8.0 ANSI Driver};port=3306;found_rows=1;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="vKUSfL84TSM="
-            IV="LM9UGgonyoaJPFC52jjMig==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="NgRVx0gWB2w="
+            IV="zkanBE2yS7ypodxUReycmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>LM9UGgonyoaJPFC52jjMioQjBNxiLQ5pikLTzFF194cvKLoD1Ip8pAwsN/NqICc5fOOBpZ3tSsrs4sq9S/dVuzditmy3o6iWTIqdQfrbzpGL/hkRuI8zj9x+9hihQrxG7O4zR7+ow7xYivYO4uPo+iBvbt4KW3cX41q3KUkYH1k=</CipherValue>
+              <CipherValue>zkanBE2yS7ypodxUReycml4KbOwhyteMBAbGTwJzIKud5LYA9UjuSTDWF+YQl/1Q+Y9W5D1/KRYMva2ZtcW9E1AHeLP5iYyXAhc/NeEn9imh4xfDJwl/pO8TTq0v7wfYj1/sEYoRBgK45hJogciqd2NLcCNQu3t798amW6v9riw=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -155,12 +155,12 @@
           DTS:ConnectionString="Data Source=XE;User ID=TEST_USER;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="lk5FhB/NY48="
-            IV="J6DbOuvvM0/MfuFHR0gJBA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="9It+gpAtFTY="
+            IV="8xr5jI93zXhuQvPmzgT53w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>J6DbOuvvM0/MfuFHR0gJBJEKsoOYHzQuyNGv4Vii4HjzquwWHB9t4yBcCKlfpbBLJ3NPTN5deWmUvH3ieAdY1dxZRDzh5x0ZNiLxsUfTZIofwY7+WoHVajOWjNhfV2DXGRAHYSVvQDw1ML7uXIxrqd73njmGhYCnGjix4znOb15k24/v/Uqu9//CVdG9M2SL</CipherValue>
+              <CipherValue>8xr5jI93zXhuQvPmzgT53+xAO1bMn4l/DGDUmN4JMiI4WnaQWHK9JWJYTnx2Mgx9yIL/A83PUvuee1ymxzm0eIFRW5rXEY/PJ8iQdcbjjkGuLiEd2bjJR2L6wo5iDOIzFWl7++qAzZZSv44nIgduDap/jjSX/YNtxyN3r4tBPSQbL/kNVvGlXCJpFcehKjwn</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -176,12 +176,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={PostgreSQL ANSI};port=5432;database=test_database;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="bARWgBnNVzk="
-            IV="JdqhEj2onmlDb1wei4/yVg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="gRmvskkWoC0="
+            IV="H07csb1rUZ4EGadarfebzA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>JdqhEj2onmlDb1wei4/yVthvj0tnmBTJXZuAn7kKE5noMK1DSZkm0TScbgzNE3o9/1oXYiP43rm2hQBGsIcyZDvlrZT+rVHqEyfIqAI4eIxX0vFNYol2FfyKKAu3HFTI4ARbgDUSYvTuKLDd+qQ3rMslCVhzU/m124t6v5A2648=</CipherValue>
+              <CipherValue>H07csb1rUZ4EGadarfebzE5T+98dKiuTpCElWkGz0/dk4GIriu0jTi4X9NilmBVJklAyLX4NMefwYSWdbYLEVQGBvOa29wUFuYTt8xWerjYtlF39Dx19sPE7I4Yc6WfUrIqm9V7ItwTuWtOgEZH4g8NXQnZ/SC4gtsdwh8Ls6TI=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -9241,6 +9241,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       cachedName="SUBSYSTEM_CODE"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SUBSYSTEM_CODE]"
                       lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]" />
+                    <inputColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[Id]"
+                      cachedDataType="i4"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID_EXT]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -10511,13 +10517,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4"
           TopLeft="330,154" />
         <NodeLayout
-          Size="188,42"
-          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец"
-          TopLeft="72,151" />
-        <NodeLayout
           Size="218,42"
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5"
           TopLeft="324,244" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец"
+          TopLeft="72,151" />
         <NodeLayout
           Size="238,42"
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL"
@@ -10641,5 +10647,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
