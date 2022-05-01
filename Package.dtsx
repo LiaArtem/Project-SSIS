@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="146"
-  DTS:VersionGUID="{AD679963-2772-498C-960F-34990CE2DA22}">
+  DTS:VersionBuild="155"
+  DTS:VersionGUID="{1387CEBE-60EE-430E-A230-03A23E17DA24}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,12 +29,12 @@
           DTS:ConnectionString="Data Source=dbserver-test-lia.database.windows.net;User ID=admin-dbserver;Initial Catalog=TestDB;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="MVJzigmtAU8="
-            IV="G/MeTjURLiNcVfXnqyVasA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="Us+EWSQCY8I="
+            IV="YXgHcTvFmfrGUQiy7Ea3KA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>G/MeTjURLiNcVfXnqyVasHun2tp0f3KT9BbLU6/sT0KbJEphRq1cCoJKGQ1z9wthBIjWxX72BVas4/DPc/TZzi4YBCDHdSA/J/m9pP9tDiHlmLWhyMddK22EflyFuWv7bk4c44rFIlGCOm/IY8xK9OiAF1obsR0/3P6bpZx7oig8Al0b9FsTN2uZz2cwi5AGNSbhXike/+6JbROiudMhqQ==</CipherValue>
+              <CipherValue>YXgHcTvFmfrGUQiy7Ea3KArtaekB+6uvU3v38RYHERIOkBZCXDxL/s0OBJfi4NLGuZE9TxniH+OzkAk3enjGW222e12WztIPS2EiJEe0w8G3KwMTopGOCAUmpgj7oFA52tdtsgGiZtn4dQkegoYqwbLdEznVPvZDb/hNFHXb0RxTb26FSaTXhR9of9OJ9f6AB8iPNuN3N3wbfOhf8vszZw==</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -132,12 +132,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={MySQL ODBC 8.0 ANSI Driver};port=3306;found_rows=1;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="NgRVx0gWB2w="
-            IV="zkanBE2yS7ypodxUReycmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="Nb7LZu4rPTw="
+            IV="tNOvIkRx0gQpA4oUC2r7BQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>zkanBE2yS7ypodxUReycml4KbOwhyteMBAbGTwJzIKud5LYA9UjuSTDWF+YQl/1Q+Y9W5D1/KRYMva2ZtcW9E1AHeLP5iYyXAhc/NeEn9imh4xfDJwl/pO8TTq0v7wfYj1/sEYoRBgK45hJogciqd2NLcCNQu3t798amW6v9riw=</CipherValue>
+              <CipherValue>tNOvIkRx0gQpA4oUC2r7BS8LXotiH3WIpP/Db1kmr7vGVeQFoTLXKgzQ+MddQi+8MmrCPSVqxIBC0xCRpeJvj+4vDqz+ZECHU7wH7qNWxaX78bwSnksrK3kB5GlL6ohpC4NP9N/Q6xhSTvSCxunBpZ8nWUPhb2qL1v5UBKKEDnA=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -155,12 +155,12 @@
           DTS:ConnectionString="Data Source=XE;User ID=TEST_USER;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="9It+gpAtFTY="
-            IV="8xr5jI93zXhuQvPmzgT53w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="ONQZdZY3Vq4="
+            IV="yM266f/t35KQ1QzZun7V1w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>8xr5jI93zXhuQvPmzgT53+xAO1bMn4l/DGDUmN4JMiI4WnaQWHK9JWJYTnx2Mgx9yIL/A83PUvuee1ymxzm0eIFRW5rXEY/PJ8iQdcbjjkGuLiEd2bjJR2L6wo5iDOIzFWl7++qAzZZSv44nIgduDap/jjSX/YNtxyN3r4tBPSQbL/kNVvGlXCJpFcehKjwn</CipherValue>
+              <CipherValue>yM266f/t35KQ1QzZun7V12gFc48MNqTo88SgNZKPMiRLXAQiG6EUYvhpeSbBhDkRqYugQn8Ynp/068HqNMDy2xeEXT9Vfomwf8/O55mQckCc0EhWATPi8G45B1w40syp42w8xPh3YbFEHBH2viYUkXPKdUrPo51SkKPbGSzXBXXzBmIanhMgZNlUrZXbDArc</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -176,12 +176,12 @@
           DTS:ConnectionString="server=localhost;uid=test_user;Driver={PostgreSQL ANSI};port=5432;database=test_database;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="gRmvskkWoC0="
-            IV="H07csb1rUZ4EGadarfebzA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="33lDcRDoq1g="
+            IV="ZjUF1lOM5QTMCKkZ30EzUA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>H07csb1rUZ4EGadarfebzE5T+98dKiuTpCElWkGz0/dk4GIriu0jTi4X9NilmBVJklAyLX4NMefwYSWdbYLEVQGBvOa29wUFuYTt8xWerjYtlF39Dx19sPE7I4Yc6WfUrIqm9V7ItwTuWtOgEZH4g8NXQnZ/SC4gtsdwh8Ls6TI=</CipherValue>
+              <CipherValue>ZjUF1lOM5QTMCKkZ30EzUB0lfRsuNBkuBeOsEzc0agz2uMGapaMc5QilAiis5dUw3JiL7bjDQZqBppD+yJYODjMwR25jvXkreVumOYscwpkFbsuM7BXCDN0NbuSsR+r32HuYGx9vYdF2s/AGh5YHeC7o1sXyyryWNeqWjg484Ao=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -8557,7 +8557,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   dataType="System.String"
                   description="Команда SQL для выполнения."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select k.id,
+           k.kurs_date,
+           k.currency_code,
+           k.rate,
+           k.forc as forc
+from dbo.kurs k</property>
                 <property
                   dataType="System.String"
                   description="Переменная, содержащая команду SQL для выполнения."
@@ -8574,7 +8579,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   dataType="System.Int32"
                   description="Указывает используемый режим доступа к базе данных."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">2</property>
                 <property
                   dataType="System.String"
                   description="Сопоставления между параметрами в команде SQL и переменными."
@@ -8594,90 +8599,75 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Выход источника &quot;OLE DB&quot;">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]"
                       dataType="i4"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[Id]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]"
-                      name="Id"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[id]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]"
+                      name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Преобразование"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[CURRENCY_CODE]"
-                      length="3"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      name="CURRENCY_CODE"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]"
                       dataType="dbDate"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[KURS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      name="KURS_DATE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[kurs_date]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      name="kurs_date"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Преобразование"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[currency_code]"
+                      length="3"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      name="currency_code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]"
                       dataType="cy"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[RATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]"
-                      name="RATE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[rate]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]"
+                      name="rate"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]"
                       dataType="i4"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[FORC]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]"
-                      name="FORC"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      errorOrTruncationOperation="Преобразование"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[SYS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      name="SYS_DATE"
-                      scale="7"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[forc]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]"
+                      name="forc"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[id]"
                       dataType="i4"
-                      name="Id" />
+                      name="id" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[kurs_date]"
+                      dataType="dbDate"
+                      name="kurs_date" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[currency_code]"
                       dataType="wstr"
                       length="3"
-                      name="CURRENCY_CODE" />
+                      name="currency_code" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[KURS_DATE]"
-                      dataType="dbDate"
-                      name="KURS_DATE" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[rate]"
                       dataType="cy"
-                      name="RATE" />
+                      name="rate" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[forc]"
                       dataType="i4"
-                      name="FORC" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      name="SYS_DATE"
-                      scale="7" />
+                      name="forc" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -8686,37 +8676,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Вывод ошибок источника &quot;OLE DB&quot;">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[id]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[Id]"
-                      name="Id" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[id]"
+                      name="id" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      name="kurs_date" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[currency_code]"
                       dataType="wstr"
                       length="3"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      name="CURRENCY_CODE" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      name="currency_code" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      dataType="dbDate"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      name="KURS_DATE" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[rate]"
                       dataType="cy"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[RATE]"
-                      name="RATE" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[rate]"
+                      name="rate" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[forc]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[FORC]"
-                      name="FORC" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      name="SYS_DATE"
-                      scale="7" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[forc]"
+                      name="forc" />
                     <outputColumn
                       refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[ErrorCode]"
                       dataType="i4"
@@ -8759,7 +8743,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   dataType="System.String"
                   description="Команда SQL для выполнения."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select k.id,
+           k.kurs_date,
+           k.currency_code,
+           k.rate,
+           k.forc as forc
+from dbo.kurs k</property>
                 <property
                   dataType="System.String"
                   description="Переменная, содержащая команду SQL для выполнения."
@@ -8776,7 +8765,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   dataType="System.Int32"
                   description="Указывает используемый режим доступа к базе данных."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">2</property>
                 <property
                   dataType="System.String"
                   description="Сопоставления между параметрами в команде SQL и переменными."
@@ -8796,90 +8785,75 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Выход источника &quot;OLE DB&quot;">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]"
                       dataType="i4"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[Id]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]"
-                      name="Id"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[id]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]"
+                      name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Преобразование"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[CURRENCY_CODE]"
-                      length="3"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      name="CURRENCY_CODE"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]"
                       dataType="dbDate"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[KURS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      name="KURS_DATE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[kurs_date]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      name="kurs_date"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Преобразование"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[currency_code]"
+                      length="3"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      name="currency_code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]"
                       dataType="cy"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[RATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]"
-                      name="RATE"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[rate]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]"
+                      name="rate"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]"
                       dataType="i4"
                       errorOrTruncationOperation="Преобразование"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[FORC]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]"
-                      name="FORC"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      errorOrTruncationOperation="Преобразование"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[SYS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      name="SYS_DATE"
-                      scale="7"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[forc]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]"
+                      name="forc"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[id]"
                       dataType="i4"
-                      name="Id" />
+                      name="id" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[kurs_date]"
+                      dataType="dbDate"
+                      name="kurs_date" />
+                    <externalMetadataColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[currency_code]"
                       dataType="wstr"
                       length="3"
-                      name="CURRENCY_CODE" />
+                      name="currency_code" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[KURS_DATE]"
-                      dataType="dbDate"
-                      name="KURS_DATE" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[rate]"
                       dataType="cy"
-                      name="RATE" />
+                      name="rate" />
                     <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[forc]"
                       dataType="i4"
-                      name="FORC" />
-                    <externalMetadataColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].ExternalColumns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      name="SYS_DATE"
-                      scale="7" />
+                      name="forc" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -8888,37 +8862,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Вывод ошибок источника &quot;OLE DB&quot;">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[id]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[Id]"
-                      name="Id" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[id]"
+                      name="id" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[kurs_date]"
+                      name="kurs_date" />
+                    <outputColumn
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[currency_code]"
                       dataType="wstr"
                       length="3"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]"
-                      name="CURRENCY_CODE" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[currency_code]"
+                      name="currency_code" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      dataType="dbDate"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[KURS_DATE]"
-                      name="KURS_DATE" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[rate]"
                       dataType="cy"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[RATE]"
-                      name="RATE" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[rate]"
+                      name="rate" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[forc]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[FORC]"
-                      name="FORC" />
-                    <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      dataType="dbTimeStamp2"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[SYS_DATE]"
-                      name="SYS_DATE"
-                      scale="7" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[forc]"
+                      name="forc" />
                     <outputColumn
                       refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Вывод ошибок источника &quot;OLE DB&quot;].Columns[ErrorCode]"
                       dataType="i4"
@@ -9021,36 +8989,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Вход назначения &quot;SQL Server&quot;">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[currency_code]"
                       cachedDataType="wstr"
                       cachedLength="3"
-                      cachedName="CURRENCY_CODE"
+                      cachedName="currency_code"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[CURRENCY_CODE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[KURS_DATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[kurs_date]"
                       cachedDataType="dbDate"
-                      cachedName="KURS_DATE"
+                      cachedName="kurs_date"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[KURS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[rate]"
                       cachedDataType="cy"
-                      cachedName="RATE"
+                      cachedName="rate"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[RATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[forc]"
                       cachedDataType="i4"
-                      cachedName="FORC"
+                      cachedName="forc"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[FORC]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[Id]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[id]"
                       cachedDataType="i4"
-                      cachedName="Id"
+                      cachedName="id"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID_EXT]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]" />
                     <inputColumn
                       refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[SUBSYSTEM_CODE]"
                       cachedDataType="wstr"
@@ -9203,50 +9171,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   name="Вход назначения &quot;SQL Server&quot;">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[CURRENCY_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[currency_code]"
                       cachedDataType="wstr"
                       cachedLength="3"
-                      cachedName="CURRENCY_CODE"
+                      cachedName="currency_code"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[CURRENCY_CODE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[CURRENCY_CODE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[currency_code]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[KURS_DATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[kurs_date]"
                       cachedDataType="dbDate"
-                      cachedName="KURS_DATE"
+                      cachedName="kurs_date"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[KURS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[KURS_DATE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[kurs_date]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[RATE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[rate]"
                       cachedDataType="cy"
-                      cachedName="RATE"
+                      cachedName="rate"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[RATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[RATE]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[rate]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[FORC]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[forc]"
                       cachedDataType="i4"
-                      cachedName="FORC"
+                      cachedName="forc"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[FORC]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[FORC]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[forc]" />
                     <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[SYS_DATE]"
-                      cachedDataType="dbTimeStamp2"
-                      cachedName="SYS_DATE"
-                      cachedScale="7"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SYS_DATE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[SYS_DATE]" />
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[id]"
+                      cachedDataType="i4"
+                      cachedName="id"
+                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID_EXT]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[id]" />
                     <inputColumn
                       refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[SUBSYSTEM_CODE]"
                       cachedDataType="wstr"
                       cachedLength="5"
                       cachedName="SUBSYSTEM_CODE"
                       externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[SUBSYSTEM_CODE]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]" />
-                    <inputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].Columns[Id]"
-                      cachedDataType="i4"
-                      cachedName="Id"
-                      externalMetadataColumnId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;].ExternalColumns[ID_EXT]"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;].Columns[Id]" />
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -9382,15 +9343,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </outputs>
             </component>
             <component
-              refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4"
+              refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Производный столбец;Корпорация Майкрософт. Microsoft SQL Server. (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены. http://www.microsoft.com/sql/support;0"
               description="Создает новые значения столбцов путем применения выражений к входным столбцам преобразования. Создает новые столбцы или перезаписывает существующие. Пример: объединение значений столбцов &quot;first name&quot; и &quot;last name&quot; и создание столбца &quot;full name&quot;."
-              name="Производный столбец 4"
+              name="Производный столбец 1"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Inputs[Вход производного столбца]"
+                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Inputs[Вход производного столбца]"
                   description="Ввод преобразования &quot;Производный столбец&quot;"
                   name="Вход производного столбца">
                   <externalMetadataColumns />
@@ -9398,19 +9359,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца]"
+                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Выход производного столбца]"
                   description="Выход по умолчанию преобразования &quot;Производный столбец&quot;"
                   exclusionGroup="1"
                   name="Выход производного столбца"
-                  synchronousInputId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Inputs[Вход производного столбца]">
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Inputs[Вход производного столбца]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
                       dataType="wstr"
                       errorOrTruncationOperation="Вычисление"
                       errorRowDisposition="FailComponent"
                       length="5"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Выход производного столбца].Columns[SUBSYSTEM_CODE]"
                       name="SUBSYSTEM_CODE"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -9431,23 +9392,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Вывод ошибок производного столбца]"
+                  refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Вывод ошибок производного столбца]"
                   description="Вывод ошибок преобразования &quot;Производный столбец&quot;"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Вывод ошибок производного столбца"
-                  synchronousInputId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Inputs[Вход производного столбца]">
+                  synchronousInputId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Inputs[Вход производного столбца]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Вывод ошибок производного столбца].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
+                      refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
+                      lineageId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Вывод ошибок производного столбца].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -9464,7 +9425,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               startId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL.Outputs[Выход источника &quot;OLE DB&quot;]" />
             <path
               refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure.Paths[Выход источника &quot;OLE DB&quot;1]"
-              endId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Inputs[Вход производного столбца]"
+              endId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Inputs[Вход производного столбца]"
               name="Выход источника &quot;OLE DB&quot;"
               startId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL.Outputs[Выход источника &quot;OLE DB&quot;]" />
             <path
@@ -9476,7 +9437,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               refId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure.Paths[Выход производного столбца1]"
               endId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5.Inputs[Вход назначения &quot;SQL Server&quot;]"
               name="Выход производного столбца"
-              startId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4.Outputs[Выход производного столбца]" />
+              startId="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1.Outputs[Выход производного столбца]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -9539,7 +9500,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         <NodeLayout
           Size="471,42"
           Id="Package\Задача потока данных KURS_SSIS - DB Oracle, PostgeeSQL, MySQL, SQLite"
-          TopLeft="218,208" />
+          TopLeft="219,208" />
         <NodeLayout
           Size="310,42"
           Id="Package\Задача потока данных KURS_SSIS - Files"
@@ -9572,7 +9533,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 1]"
-          TopLeft="455.25,166">
+          TopLeft="455.75,166">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9594,7 +9555,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Ограничение 2]"
-          TopLeft="452.25,250">
+          TopLeft="452.75,250">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -9643,7 +9604,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     design-time-name="Package\Задача потока данных KURS_SSIS - DB Oracle, PostgeeSQL, MySQL, SQLite">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="188,42"
           Id="Package\Задача потока данных KURS_SSIS - DB Oracle, PostgeeSQL, MySQL, SQLite\Производный столбец 1"
@@ -9723,9 +9684,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9747,9 +9706,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9771,9 +9728,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9795,9 +9750,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9819,9 +9772,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9843,9 +9794,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9867,9 +9816,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9891,9 +9838,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9915,9 +9860,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9939,9 +9882,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9963,9 +9904,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10511,23 +10450,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="203,42"
-          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 4"
-          TopLeft="330,154" />
-        <NodeLayout
-          Size="218,42"
-          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5"
-          TopLeft="324,244" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="188,42"
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец"
           TopLeft="72,151" />
         <NodeLayout
-          Size="238,42"
-          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL"
-          TopLeft="321,64" />
+          Size="188,42"
+          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Производный столбец 1"
+          TopLeft="346,150" />
+        <NodeLayout
+          Size="218,42"
+          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5"
+          TopLeft="327,270" />
         <NodeLayout
           Size="209,42"
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL"
@@ -10536,30 +10471,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Size="202,42"
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;"
           TopLeft="67,266" />
-        <EdgeLayout
-          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure.Paths[Выход производного столбца1]"
-          TopLeft="432.25,196">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48"
-              Start="0,0"
-              End="0,40.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="238,42"
+          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; - AzureSQL"
+          TopLeft="321,64" />
         <EdgeLayout
           Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure.Paths[Выход производного столбца]"
           TopLeft="167,193">
@@ -10579,9 +10494,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10590,34 +10503,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-8.5,48"
+              EndConnector="0,44"
               Start="0,0"
-              End="-8.5,40.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20"
-                    Point2="0,24"
-                    Point3="-4,24" />
-                  <mssgle:LineSegment
-                    End="-4.5,24" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-4.5,24"
-                    Point2="-8.5,24"
-                    Point3="-8.5,28" />
-                  <mssgle:LineSegment
-                    End="-8.5,40.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10639,9 +10538,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure.Paths[Выход производного столбца1]"
+          TopLeft="438,192">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,78"
+              Start="0,0"
+              End="0,70.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,70.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -10649,6 +10568,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot; 5">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Источник &quot;OLE DB&quot; MSSQL">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Задача потока данных KURS_SSIS-DB MSSQL and Azure\Назначение &quot;SQL Server&quot;">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
