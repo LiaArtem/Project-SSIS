@@ -1,4 +1,4 @@
-- Project SSIS VS2019 (Azure SQL, MS SQL 2019, OracleXE 21c, PostgreSQL 14, MySQL, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2019).
+- Project SSIS VS2019 (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, IBM DB2, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2019).
 
 Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
 
@@ -12,7 +12,7 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
 -> MySQL ODBC Driver
 ------------------------------------------------------
 - https://dev.mysql.com/downloads/connector/odbc/
-- скачиваем и ставим mysql-connector-odbc-8.0.27-win32.msi или более новую
+- скачиваем и ставим mysql-connector-odbc-8.0.30-win32.msi или более новую
 - ODBC прописать при подключении в SSIS
 - Driver={MySQL ODBC 8.0 ANSI Driver};Server=localhost;User=test_user;Password=12345678;Option=3;
 
@@ -42,3 +42,9 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
 - открыть «Администрирование» -> «Источники данных» (ODBC).
   - на вкладке System DSN -> SQLite3 Datasource (32bit) прописать путь к базе данных c:\DB_SQLite\CurrencyChartFXMaven.db
 
+-> IBM DB2 OLE DB Driver
+------------------------------------------------------
+- OLE DB устанавливается вместе с базой данных
+- настраиваем OLE DB подключение в SSRS
+  - поставщик OLE DB: Provider=IBMOLEDB.DB2COPY1;Data Source=SAMPLE;Location=localhost:25000
+  - логин = db2admin и пароль = 12345678.
