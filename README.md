@@ -1,4 +1,4 @@
-- Project SSIS VS2019 (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, IBM DB2, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2019).
+- Project SSIS VS2019 (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, IBM DB2, IBM Informix, Firebird, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2022).
 
 Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
 
@@ -48,3 +48,25 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
 - настраиваем OLE DB подключение в SSRS
   - поставщик OLE DB: Provider=IBMOLEDB.DB2COPY1;Data Source=SAMPLE;Location=localhost:25000
   - логин = db2admin и пароль = 12345678.
+
+-> IBM Informix ODBC Driver
+------------------------------------------------------
+- Windows -> Переменные среды -> Системные переменные -> параметр PATH добавляем C:\Windows\SysWOW64;
+- Перегрузить ПК
+- !!!! Скачиваем и устанавливаем IBM Informix Client SDKV 4.10 x32 (ibm.csdk.4.10.TC9DE.WIN (x32).zip) в папку C:\Program Files (x86)\IBM Informix Client SDK
+- Windows -> Источники данных ODBC (32 разрадная версия) -> Системный DSN
+  - General:
+    - Data Source Name - informix_odbc_x32
+    - Description - informix_odbc_x32
+  - Connection:
+    - Server Name - informix_test
+    - Host Name - localhost
+    - Service - turbo_test
+    - Protocol - olsoctcp
+    - Database Name - sample
+    - User Id - informix
+    - Password - 12345678
+
+-> Firebird ODBC Driver
+------------------------------------------------------
+- Скачиваем и устанавливаем Firebird_ODBC_2.0.5.156_Win32.exe
