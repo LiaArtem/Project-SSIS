@@ -1,40 +1,102 @@
-- Project SSIS VS2019 (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, IBM DB2, IBM Informix, Firebird, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2022).
+- Project SSIS VS2019 (Oracle, MS SQL, Azure SQL, PostgreSQL, MySQL, MariaDB, IBM DB2, IBM Informix, Firebird, SQLite, XML file, XML web, JSON file, JSON web, CSV file -> MS SQL 2022).
 
-Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
+!!! Visual Studio 2019 запуск проекта под Администратором на ПК - пароль 12345678
 
-!!! Visual Studio 2019 запуск проекта под Администратором на ПК
-----------------------------------------------------------------------------
+При начальноей разработке:
+- Установите для свойства SSIS Package ProtectionLevel значение EncryptSensitiveWithPassword - пароль 12345678
+- Интерфейс -> Вид -> Другие окна -> SSIS Toolbox
 
 ----------------------------------------------------------------------------
 Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Client
 ----------------------------------------------------------------------------
 
--> MySQL ODBC Driver
+-> Oracle Driver
 ------------------------------------------------------
-- https://dev.mysql.com/downloads/connector/odbc/
-- скачиваем и ставим mysql-connector-odbc-8.0.30-win32.msi или более новую
-- ODBC прописать при подключении в SSIS
-- Driver={MySQL ODBC 8.0 ANSI Driver};Server=localhost;User=test_user;Password=12345678;Option=3;
+  *** ODBC (вариант 1)
+- https://www.oracle.com/database/technologies/oracle21c-windows-downloads.html
+- скачиваем и ставим Oracle клиента x86 - NT_213000_client.zip или более новый
+- после установки меняем в глоб. реестре:
+  - Компьютер\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\ORACLE\KEY_OraClient19Home1_32bit c AMERICAN_AMERICA.WE8MSWIN1252
+    на NLS_LANG = AMERICAN_AMERICA.AL32UTF8 (либо AMERICAN_AMERICA.CL8MSWIN1251)
+- копируем файлы tnsnames.ora и sqlnet.ora в папку c:\app\client\Admin\product\21.0.0\client_1\network\admin\
+- или настраиваем tnsnames.ora для настройки x86 Oracle Client:
+    XE = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = XE)))
+  - запускаем -> Источники данных ODBC (32-разрядная версия)
+  - проверяем -> Драйверы, должен появится -> Oracle in OraClient21Home1_32bit
+  - выбираем -> Системный DSN -> Добавить:
+    - Data Source Name: Oracle_x32
+    - Description: Oracle_x32
+    - TNS Service Name: XE
+    - User ID: TEST_USER
+    - OK
+  - настраиваем ODBC подключение в SSIS
+  - поставщик ODBC: System data source name = Oracle_x32
+  - логин = TEST_USER и пароль = !Aa112233.
+
+  *** OLE DB (вариант 2)
+- https://www.oracle.com/database/technologies/oracle21c-windows-downloads.html
+- скачиваем и ставим Oracle клиента x86 - NT_213000_client.zip или более новый
+- после установки меняем в глоб. реестре:
+  - Компьютер\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\ORACLE\KEY_OraClient19Home1_32bit c AMERICAN_AMERICA.WE8MSWIN1252
+    на NLS_LANG = AMERICAN_AMERICA.AL32UTF8 (либо AMERICAN_AMERICA.CL8MSWIN1251)
+- копируем файлы tnsnames.ora и sqlnet.ora в папку c:\app\client\Admin\product\21.0.0\client_1\network\admin\
+- или настраиваем tnsnames.ora для настройки x86 Oracle Client:
+    XE = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = XE)))
+- настраиваем OLE DB подключение в SSIS
+  - поставщик OLE DB: Oracle provider for OLE DB
+  - имя базы = XE, логин = TEST_USER и пароль = !Aa112233.
+
+  *** ODBC (вариант 3)
+  - инструкция - https://www.oracle.com/cis/database/technologies/releasenote-odbc-ic.html
+  - https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html
+
+  - скачиваем Oracle Instant Client Basic Package - instantclient-basic-nt-21.7.0.0.0dbru.zip
+  - распаковываем с папку c:\oracle\product\, если их нет создаем
+  - добавляем в Переменные среды -> Cистемные переменные -> Path = c:\oracle\product\instantclient_21_7\
+  - скачиваем SQL*Plus Package - instantclient-sqlplus-nt-21.7.0.0.0dbru.zip
+  - распаковываем с папку c:\oracle\product\
+  - копируем файлы tnsnames.ora и sqlnet.ora в папку c:\oracle\product\instantclient_21_7\network\admin\
+  - проверяем cmd:
+    - sqlplus /nolog
+    - connect TEST_USER/!Aa112233@XE
+    - exit
+  - скачиваем ODBC Package - instantclient-odbc-nt-21.7.0.0.0dbru.zip
+  - распаковываем с папку c:\oracle\product\
+  - запускаем cmd под администратором
+    - cd c:\oracle\product\instantclient_21_7\
+    - odbc_install
+  - запускаем -> Источники данных ODBC (32-разрядная версия)
+  - проверяем -> Драйверы, должен появится -> Oracle in instantclient_21_7
+  - выбираем -> Системный DSN -> Добавить:
+    - Data Source Name: Oracle_x32
+    - Description: Oracle_x32
+    - TNS Service Name: XE
+    - User ID: TEST_USER
+    - OK
+  - настраиваем ODBC подключение в SSIS
+  - поставщик ODBC: System data source name = Oracle_x32
+  - логин = TEST_USER и пароль = !Aa112233.
 
 -> PostgreSQL ODBC Driver
 ------------------------------------------------------
 - https://www.postgresql.org/ftp/odbc/versions/msi/
 - скачиваем и ставим psqlodbc_13_02_0000-x86.zip или более новую
 - ODBC прописать при подключении в SSIS
-- Driver={PostgreSQL ANSI};Server=localhost;Port=5432;Database=test_database;Uid=test_user;Pwd=12345678;
+- Driver={PostgreSQL ANSI};server=localhost;uid=testdb;port=5432;database=testdb;Uid=testdb;Pwd=!Aa112233;
 
--> Oracle OLE DB Driver
+-> MySQL ODBC Driver
 ------------------------------------------------------
-- https://www.oracle.com/database/technologies/oracle21c-windows-downloads.html
-- скачиваем и ставим Oracle клиента x86 - NT_213000_client.zip или более новый
-- после установки меняем в глоб. реестре:
-  - Компьютер\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\ORACLE\KEY_OraClient19Home1_32bit c AMERICAN_AMERICA.WE8MSWIN1252
-    на NLS_LANG = AMERICAN_AMERICA.AL32UTF8 (либо AMERICAN_AMERICA.CL8MSWIN1251)
-- настраиваем tnsnames.ora для настройки x86 Oracle Client:
-    XE = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = XE)))
-- настраиваем OLE DB подключение в SSIS
-  - поставщик OLE DB: Oracle provider for OLE DB
-  - имя базы = XE, логин = TEST_USER и пароль = TEST_USER.
+- https://dev.mysql.com/downloads/connector/odbc/
+- скачиваем и ставим mysql-connector-odbc-8.0.30-win32.msi или более новую
+- ODBC прописать при подключении в SSIS
+- Driver={MySQL ODBC 8.0 ANSI Driver};server=localhost;uid=root;port=3306;found_rows=1;User=root;Password=!Aa112233;Option=3;
+
+-> MariaDB ODBC Driver
+------------------------------------------------------
+- https://mariadb.com/kb/en/mariadb-connector-odbc/
+- скачиваем и ставим mariadb-connector-odbc-3.1.17-win32.msi или более новую
+- ODBC прописать при подключении в SSIS
+- Driver={MariaDB ODBC 3.1 Driver};server=localhost;uid=root;port=3307;option=3;Password=!Aa112233;
 
 -> SQLite ODBC Driver
 ------------------------------------------------------
@@ -42,12 +104,40 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
 - открыть «Администрирование» -> «Источники данных» (ODBC).
   - на вкладке System DSN -> SQLite3 Datasource (32bit) прописать путь к базе данных c:\DB_SQLite\CurrencyChartFXMaven.db
 
--> IBM DB2 OLE DB Driver
+-> IBM DB2 Driver
 ------------------------------------------------------
-- OLE DB устанавливается вместе с базой данных
-- настраиваем OLE DB подключение в SSRS
+- OLE DB устанавливается вместе с базой данных (если локальная база данных)
+- настраиваем OLE DB подключение в SSIS
   - поставщик OLE DB: Provider=IBMOLEDB.DB2COPY1;Data Source=SAMPLE;Location=localhost:25000
-  - логин = db2admin и пароль = 12345678.
+  - логин = db2admin и пароль = !Aa112233.
+
+- *** ODBC (если база данных находится на отдельном сервере)
+- настраиваем ODBC подключение в SSIS
+  - https://www.ibm.com/support/pages/node/6830623 поиск IBM Data Server Driver for ODBC and CLI (32-bit) -> Download
+    - IBM Data Server Driver for ODBC and CLI (Windows/x86-64 32 bit) V11.5.8 Fix Pack 0
+  - скачать IBM Data Server Driver for ODBC and CLI (32-bit) -> v11.5.8_nt32_odbc_cli.zip
+  - распаковать содержимое в c:\Program Files\IBM\ предварително создав папку IBM
+  - добавляем в Переменные среды -> Cистемные переменные -> Path = c:\Program Files\IBM\clidriver\bin
+  - запускаем под администатором: cmd db2oreg1 –i
+  - запускаем под администатором: cmd db2oreg1 –setup
+  - запускаем -> Источники данных ODBC (32-разрядная версия)
+  - проверяем -> Драйверы, должен появится -> IBM DATA SERVER DRIVER for ODBC.....
+  - выбираем -> Системный DSN -> Добавить:
+    - Data Source Name: ibmdb2_odbc_32
+    - Description: ibmdb2_odbc_32
+    - Database alias: -> Add
+      - Data Source:
+        - User ID: DB2INST1
+        - Password: !Aa112233
+        - check Save password
+      - TCP/IP:
+        - Database name: sample
+        - Host name: localhost
+        - Port: 50000
+      - OK
+  - настраиваем ODBC подключение в SSIS
+  - поставщик ODBC: System data source name = ibmdb2_odbc
+  - логин = DB2INST1 и пароль = !Aa112233.
 
 -> IBM Informix ODBC Driver
 ------------------------------------------------------
@@ -65,8 +155,13 @@ Visual Studio 2019 - SSIS работает с x86 ODBC Drivers и x86 Oracle Cli
     - Protocol - olsoctcp
     - Database Name - sample
     - User Id - informix
-    - Password - 12345678
+    - Password - !Aa112233
 
--> Firebird ODBC Driver
+-> Firebird ODBC Driver (если локальная база данных)
 ------------------------------------------------------
-- Скачиваем и устанавливаем Firebird_ODBC_2.0.5.156_Win32.exe
+- https://firebirdsql.org/en/odbc-driver/
+- скачиваем и ставим Firebird_ODBC_2.0.5.156_Win32.exe или более новую
+- ODBC прописать при подключении в SSIS
+- Driver={Firebird/InterBase(r) driver};uid=SYSDBA;dbname=C:\Windows\System32\SAMPLEDATABASE.FDB
+
+
