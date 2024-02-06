@@ -11,7 +11,7 @@
    https://github.com/LiaArtem/Docker-Win11/
    https://github.com/LiaArtem/Oracle_23c_Free/
 
-   !!!! Если у ПК <= 8 Гб ОП у Docker нормальна робота всіх тестових баз та бази IBM DB2 не можлива,
+   !!!! Якщо у ПК <= 8 Гб ОП у Docker нормальна робота всіх тестових баз та бази IBM DB2 не можлива,
    не вистачає ресурсів, IBM DB2 тестується окремо с базой MSSQL.
 
 2) Заповнюємо бази данних даними запускаючи проект - CurrencyChartFX-Java-21-Maven
