@@ -15,7 +15,7 @@
    не вистачає ресурсів, IBM DB2 тестується окремо с базой MSSQL.
 
 2) Заповнюємо бази данних даними запускаючи проект - CurrencyChartFX-Java-21-Maven
-   https://github.com/LiaArtem/CurrencyChartFX-Java-21-Maven (налаштуванная у файлі - Settings (SSRS).json)
+   https://github.com/LiaArtem/CurrencyChartFX-Java-21-Maven (налаштуванная у файлі - Settings (SSIS).json)
 
 -> Oracle OLE DB Driver
 ------------------------------------------------------
